@@ -1,0 +1,37 @@
+Start:  AIC=-3782.05
+Exec_T ~ SqT:V3 - 1
+
+         Df Sum of Sq     RSS     AIC
++ V3      1   0.00002 0.00008 -3828.0
++ V1      1   0.00001 0.00009 -3797.1
+<none>                0.00009 -3782.1
++ SqT     1   0.00000 0.00009 -3778.4
+- SqT:V3  1   0.53896 0.53906 -1577.8
+
+Step:  AIC=-3828.04
+Exec_T ~ V3 + SqT:V3 - 1
+
+         Df Sum of Sq      RSS     AIC
+<none>                0.000076 -3828.0
++ SqT     1  0.000002 0.000074 -3826.0
++ V1      1  0.000002 0.000074 -3825.4
+- V3:SqT  1  0.226686 0.226762 -1789.4
+
+Call:
+lm(formula = Exec_T ~ V3 + SqT:V3 - 1, data = gemm_gpu_train_set)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0014284 -0.0002529  0.0000408  0.0003413  0.0016580 
+
+Coefficients:
+        Estimate Std. Error t value Pr(>|t|)    
+V3     8.328e-08  1.057e-08    7.88  9.6e-14 ***
+V3:SqT 2.844e-13  3.265e-16  871.05  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0005466 on 254 degrees of freedom
+Multiple R-squared:  0.9999,	Adjusted R-squared:  0.9999 
+F-statistic: 9.02e+05 on 2 and 254 DF,  p-value: < 2.2e-16
+

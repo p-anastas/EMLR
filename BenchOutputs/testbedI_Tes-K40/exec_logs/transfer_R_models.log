@@ -1,0 +1,9 @@
+LogP H2D model: 
+Intercept =  2.25493e-06 
+Coefficient = 3.180322e-10 
+Slowdown = 1.072324 
+
+LogP D2H model: 
+Intercept =  2.234969e-06 
+Coefficient = 3.013531e-10 
+Slowdown = 1.15938 

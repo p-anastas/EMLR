@@ -1,0 +1,48 @@
+Start:  AIC=-3912.79
+Exec_T ~ SqT:V3 - 1
+
+         Df Sum of Sq      RSS     AIC
++ V1      1  0.000002 0.000054 -3914.0
++ V3      1  0.000002 0.000054 -3913.4
+<none>                0.000057 -3912.8
++ SqT     1  0.000000 0.000056 -3904.6
+- SqT:V3  1  0.134596 0.134652 -1932.9
+
+Step:  AIC=-3913.95
+Exec_T ~ V1 + SqT:V3 - 1
+
+         Df Sum of Sq      RSS     AIC
++ SqT     1  0.000002 0.000052 -3915.7
+<none>                0.000054 -3914.0
+- V1      1  0.000002 0.000057 -3912.8
++ V3      1  0.000001 0.000053 -3908.8
+- SqT:V3  1  0.036552 0.036607 -2256.3
+
+Step:  AIC=-3915.71
+Exec_T ~ V1 + SqT + SqT:V3 - 1
+
+         Df Sum of Sq       RSS     AIC
+<none>                0.0000518 -3915.7
++ V3      1 0.0000001 0.0000518 -3906.0
+- V1      1 0.0000045 0.0000563 -3904.6
+- SqT:V3  1 0.0303977 0.0304495 -2293.4
+
+Call:
+lm(formula = Exec_T ~ V1 + SqT + SqT:V3 - 1, data = gemm_gpu_train_set)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-8.712e-04 -1.845e-04 -4.028e-05  7.021e-05  2.634e-03 
+
+Coefficients:
+         Estimate Std. Error t value Pr(>|t|)    
+V1      1.069e-07  2.291e-08   4.667 4.95e-06 ***
+SqT    -1.330e-11  3.857e-12  -3.449  0.00066 ***
+SqT:V3  1.427e-13  3.703e-16 385.245  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0004526 on 253 degrees of freedom
+Multiple R-squared:  0.9996,	Adjusted R-squared:  0.9996 
+F-statistic: 2.191e+05 on 3 and 253 DF,  p-value: < 2.2e-16
+

@@ -1,0 +1,3010 @@
+WARNING ( Generating Logfile... )
+Allocated Device memory t_aloc = 2.680063 ms
+Initialized Device Mem: t_init = 21.771908 ms
+
+Tile details: A(Col major) x(inc=1) y(inc=1) -> Mmax = 16384, Nmax = 16384
+Constants: alpha = 1.123400, beta = 1.234500
+Running CUBLAS GPU-> M = 512, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.013022 ms, Min = 0.011921 ms, Max = 0.018120 ms
+Running CUBLAS GPU-> M = 512, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.016081 ms, Min = 0.014782 ms, Max = 0.045061 ms
+Running CUBLAS GPU-> M = 512, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.021350 ms, Min = 0.019789 ms, Max = 0.039101 ms
+Running CUBLAS GPU-> M = 512, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.028529 ms, Min = 0.026941 ms, Max = 0.030041 ms
+Running CUBLAS GPU-> M = 512, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.035541 ms, Min = 0.033855 ms, Max = 0.050068 ms
+Running CUBLAS GPU-> M = 512, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.039728 ms, Min = 0.036955 ms, Max = 0.054836 ms
+Running CUBLAS GPU-> M = 512, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.044501 ms, Min = 0.041962 ms, Max = 0.070095 ms
+Running CUBLAS GPU-> M = 512, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.049975 ms, Min = 0.046015 ms, Max = 0.091076 ms
+Running CUBLAS GPU-> M = 512, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.053325 ms, Min = 0.051022 ms, Max = 0.097036 ms
+Running CUBLAS GPU-> M = 512, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.057592 ms, Min = 0.054836 ms, Max = 0.075102 ms
+Running CUBLAS GPU-> M = 512, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.062771 ms, Min = 0.060797 ms, Max = 0.085115 ms
+Running CUBLAS GPU-> M = 512, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.067067 ms, Min = 0.063896 ms, Max = 0.083923 ms
+Running CUBLAS GPU-> M = 512, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.071073 ms, Min = 0.068903 ms, Max = 0.113010 ms
+Running CUBLAS GPU-> M = 512, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.074902 ms, Min = 0.072956 ms, Max = 0.083923 ms
+Running CUBLAS GPU-> M = 512, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.080013 ms, Min = 0.077009 ms, Max = 0.097990 ms
+Running CUBLAS GPU-> M = 512, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.082672 ms, Min = 0.080824 ms, Max = 0.087976 ms
+Running CUBLAS GPU-> M = 512, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.088420 ms, Min = 0.086069 ms, Max = 0.107050 ms
+Running CUBLAS GPU-> M = 512, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.089710 ms, Min = 0.087023 ms, Max = 0.108957 ms
+Running CUBLAS GPU-> M = 512, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.092862 ms, Min = 0.089884 ms, Max = 0.125885 ms
+Running CUBLAS GPU-> M = 512, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.097640 ms, Min = 0.095844 ms, Max = 0.114918 ms
+Running CUBLAS GPU-> M = 512, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.101089 ms, Min = 0.098944 ms, Max = 0.132084 ms
+Running CUBLAS GPU-> M = 512, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.105340 ms, Min = 0.102997 ms, Max = 0.123024 ms
+Running CUBLAS GPU-> M = 512, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.109479 ms, Min = 0.106812 ms, Max = 0.138044 ms
+Running CUBLAS GPU-> M = 512, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.112841 ms, Min = 0.109911 ms, Max = 0.128984 ms
+Running CUBLAS GPU-> M = 512, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.117896 ms, Min = 0.115871 ms, Max = 0.156879 ms
+Running CUBLAS GPU-> M = 512, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.122180 ms, Min = 0.118971 ms, Max = 0.139952 ms
+Running CUBLAS GPU-> M = 512, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.126650 ms, Min = 0.123978 ms, Max = 0.159025 ms
+Running CUBLAS GPU-> M = 512, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.130711 ms, Min = 0.127792 ms, Max = 0.180006 ms
+Running CUBLAS GPU-> M = 512, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.134695 ms, Min = 0.131845 ms, Max = 0.161886 ms
+Running CUBLAS GPU-> M = 512, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.139301 ms, Min = 0.136852 ms, Max = 0.166893 ms
+Running CUBLAS GPU-> M = 512, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.141850 ms, Min = 0.134945 ms, Max = 0.214815 ms
+Running CUBLAS GPU-> M = 512, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.136821 ms, Min = 0.134945 ms, Max = 0.179052 ms
+Running CUBLAS GPU-> M = 1024, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.017288 ms, Min = 0.015020 ms, Max = 0.040054 ms
+Running CUBLAS GPU-> M = 1024, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.025680 ms, Min = 0.023842 ms, Max = 0.036001 ms
+Running CUBLAS GPU-> M = 1024, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.034895 ms, Min = 0.032902 ms, Max = 0.050068 ms
+Running CUBLAS GPU-> M = 1024, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.040286 ms, Min = 0.038862 ms, Max = 0.044107 ms
+Running CUBLAS GPU-> M = 1024, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.048642 ms, Min = 0.046968 ms, Max = 0.053167 ms
+Running CUBLAS GPU-> M = 1024, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.055492 ms, Min = 0.052929 ms, Max = 0.102043 ms
+Running CUBLAS GPU-> M = 1024, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.063646 ms, Min = 0.061989 ms, Max = 0.080824 ms
+Running CUBLAS GPU-> M = 1024, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.068340 ms, Min = 0.065804 ms, Max = 0.086069 ms
+Running CUBLAS GPU-> M = 1024, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.079572 ms, Min = 0.077009 ms, Max = 0.117064 ms
+Running CUBLAS GPU-> M = 1024, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.084860 ms, Min = 0.082016 ms, Max = 0.100851 ms
+Running CUBLAS GPU-> M = 1024, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.092640 ms, Min = 0.090122 ms, Max = 0.136852 ms
+Running CUBLAS GPU-> M = 1024, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.098150 ms, Min = 0.094891 ms, Max = 0.113964 ms
+Running CUBLAS GPU-> M = 1024, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.105543 ms, Min = 0.102997 ms, Max = 0.124931 ms
+Running CUBLAS GPU-> M = 1024, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.110905 ms, Min = 0.108957 ms, Max = 0.128031 ms
+Running CUBLAS GPU-> M = 1024, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.121932 ms, Min = 0.118971 ms, Max = 0.151157 ms
+Running CUBLAS GPU-> M = 1024, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.125721 ms, Min = 0.122786 ms, Max = 0.139952 ms
+Running CUBLAS GPU-> M = 1024, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.136371 ms, Min = 0.133038 ms, Max = 0.181913 ms
+Running CUBLAS GPU-> M = 1024, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.140371 ms, Min = 0.136137 ms, Max = 0.177145 ms
+Running CUBLAS GPU-> M = 1024, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.150168 ms, Min = 0.147104 ms, Max = 0.170946 ms
+Running CUBLAS GPU-> M = 1024, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.153890 ms, Min = 0.150919 ms, Max = 0.172138 ms
+Running CUBLAS GPU-> M = 1024, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.164783 ms, Min = 0.161886 ms, Max = 0.182152 ms
+Running CUBLAS GPU-> M = 1024, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.167327 ms, Min = 0.163794 ms, Max = 0.186920 ms
+Running CUBLAS GPU-> M = 1024, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.176542 ms, Min = 0.174999 ms, Max = 0.197172 ms
+Running CUBLAS GPU-> M = 1024, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.183761 ms, Min = 0.180006 ms, Max = 0.199080 ms
+Running CUBLAS GPU-> M = 1024, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.192010 ms, Min = 0.188112 ms, Max = 0.236988 ms
+Running CUBLAS GPU-> M = 1024, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.196753 ms, Min = 0.190973 ms, Max = 0.245094 ms
+Running CUBLAS GPU-> M = 1024, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.209820 ms, Min = 0.205994 ms, Max = 0.228167 ms
+Running CUBLAS GPU-> M = 1024, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.210500 ms, Min = 0.205994 ms, Max = 0.265121 ms
+Running CUBLAS GPU-> M = 1024, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.224981 ms, Min = 0.221014 ms, Max = 0.257969 ms
+Running CUBLAS GPU-> M = 1024, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.225756 ms, Min = 0.221968 ms, Max = 0.259876 ms
+Running CUBLAS GPU-> M = 1024, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.234087 ms, Min = 0.231028 ms, Max = 0.250816 ms
+Running CUBLAS GPU-> M = 1024, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.240967 ms, Min = 0.236034 ms, Max = 0.281096 ms
+Running CUBLAS GPU-> M = 1536, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.017290 ms, Min = 0.015974 ms, Max = 0.025988 ms
+Running CUBLAS GPU-> M = 1536, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.030987 ms, Min = 0.028849 ms, Max = 0.074148 ms
+Running CUBLAS GPU-> M = 1536, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.038869 ms, Min = 0.036955 ms, Max = 0.055075 ms
+Running CUBLAS GPU-> M = 1536, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.066271 ms, Min = 0.045776 ms, Max = 1.760006 ms
+Running CUBLAS GPU-> M = 1536, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.056753 ms, Min = 0.054836 ms, Max = 0.073910 ms
+Running CUBLAS GPU-> M = 1536, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.065076 ms, Min = 0.062943 ms, Max = 0.079870 ms
+Running CUBLAS GPU-> M = 1536, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.073240 ms, Min = 0.071049 ms, Max = 0.088930 ms
+Running CUBLAS GPU-> M = 1536, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.082633 ms, Min = 0.079870 ms, Max = 0.128984 ms
+Running CUBLAS GPU-> M = 1536, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.090630 ms, Min = 0.088930 ms, Max = 0.109911 ms
+Running CUBLAS GPU-> M = 1536, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.099020 ms, Min = 0.096798 ms, Max = 0.117064 ms
+Running CUBLAS GPU-> M = 1536, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.108459 ms, Min = 0.105858 ms, Max = 0.123978 ms
+Running CUBLAS GPU-> M = 1536, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.116370 ms, Min = 0.113964 ms, Max = 0.142813 ms
+Running CUBLAS GPU-> M = 1536, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.124147 ms, Min = 0.122070 ms, Max = 0.139952 ms
+Running CUBLAS GPU-> M = 1536, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.132084 ms, Min = 0.129938 ms, Max = 0.162125 ms
+Running CUBLAS GPU-> M = 1536, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.143881 ms, Min = 0.139952 ms, Max = 0.182152 ms
+Running CUBLAS GPU-> M = 1536, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.150421 ms, Min = 0.146866 ms, Max = 0.195026 ms
+Running CUBLAS GPU-> M = 1536, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.159159 ms, Min = 0.155926 ms, Max = 0.201941 ms
+Running CUBLAS GPU-> M = 1536, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.167708 ms, Min = 0.164986 ms, Max = 0.187159 ms
+Running CUBLAS GPU-> M = 1536, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.174952 ms, Min = 0.171900 ms, Max = 0.195026 ms
+Running CUBLAS GPU-> M = 1536, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.183237 ms, Min = 0.180006 ms, Max = 0.201941 ms
+Running CUBLAS GPU-> M = 1536, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.193508 ms, Min = 0.190020 ms, Max = 0.237942 ms
+Running CUBLAS GPU-> M = 1536, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.200918 ms, Min = 0.198841 ms, Max = 0.205994 ms
+Running CUBLAS GPU-> M = 1536, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.209270 ms, Min = 0.206947 ms, Max = 0.262976 ms
+Running CUBLAS GPU-> M = 1536, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.214689 ms, Min = 0.211000 ms, Max = 0.234127 ms
+Running CUBLAS GPU-> M = 1536, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.226753 ms, Min = 0.223160 ms, Max = 0.266075 ms
+Running CUBLAS GPU-> M = 1536, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.234621 ms, Min = 0.231028 ms, Max = 0.267982 ms
+Running CUBLAS GPU-> M = 1536, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.244143 ms, Min = 0.240088 ms, Max = 0.284910 ms
+Running CUBLAS GPU-> M = 1536, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.251372 ms, Min = 0.247002 ms, Max = 0.280142 ms
+Running CUBLAS GPU-> M = 1536, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.261371 ms, Min = 0.258923 ms, Max = 0.277996 ms
+Running CUBLAS GPU-> M = 1536, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.268137 ms, Min = 0.265837 ms, Max = 0.273943 ms
+Running CUBLAS GPU-> M = 1536, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.280461 ms, Min = 0.276089 ms, Max = 0.324965 ms
+Running CUBLAS GPU-> M = 1536, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.285261 ms, Min = 0.280857 ms, Max = 0.303984 ms
+Running CUBLAS GPU-> M = 2048, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.024402 ms, Min = 0.021935 ms, Max = 0.056028 ms
+Running CUBLAS GPU-> M = 2048, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.034454 ms, Min = 0.031948 ms, Max = 0.050068 ms
+Running CUBLAS GPU-> M = 2048, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.046167 ms, Min = 0.043869 ms, Max = 0.063896 ms
+Running CUBLAS GPU-> M = 2048, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.055110 ms, Min = 0.052929 ms, Max = 0.083923 ms
+Running CUBLAS GPU-> M = 2048, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.066381 ms, Min = 0.063896 ms, Max = 0.084877 ms
+Running CUBLAS GPU-> M = 2048, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.075114 ms, Min = 0.072956 ms, Max = 0.090122 ms
+Running CUBLAS GPU-> M = 2048, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.084071 ms, Min = 0.081062 ms, Max = 0.100136 ms
+Running CUBLAS GPU-> M = 2048, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.094860 ms, Min = 0.092030 ms, Max = 0.101089 ms
+Running CUBLAS GPU-> M = 2048, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.104208 ms, Min = 0.101089 ms, Max = 0.118971 ms
+Running CUBLAS GPU-> M = 2048, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.113511 ms, Min = 0.110865 ms, Max = 0.142097 ms
+Running CUBLAS GPU-> M = 2048, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.124185 ms, Min = 0.120878 ms, Max = 0.139952 ms
+Running CUBLAS GPU-> M = 2048, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.134368 ms, Min = 0.131130 ms, Max = 0.149965 ms
+Running CUBLAS GPU-> M = 2048, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.145893 ms, Min = 0.141859 ms, Max = 0.180960 ms
+Running CUBLAS GPU-> M = 2048, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.152400 ms, Min = 0.149012 ms, Max = 0.197887 ms
+Running CUBLAS GPU-> M = 2048, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.164182 ms, Min = 0.159979 ms, Max = 0.212908 ms
+Running CUBLAS GPU-> M = 2048, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.172231 ms, Min = 0.169039 ms, Max = 0.191927 ms
+Running CUBLAS GPU-> M = 2048, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.184557 ms, Min = 0.178814 ms, Max = 0.237942 ms
+Running CUBLAS GPU-> M = 2048, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.194602 ms, Min = 0.190020 ms, Max = 0.243902 ms
+Running CUBLAS GPU-> M = 2048, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.202990 ms, Min = 0.198841 ms, Max = 0.221014 ms
+Running CUBLAS GPU-> M = 2048, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.210240 ms, Min = 0.206947 ms, Max = 0.255108 ms
+Running CUBLAS GPU-> M = 2048, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.222144 ms, Min = 0.219107 ms, Max = 0.241995 ms
+Running CUBLAS GPU-> M = 2048, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.232420 ms, Min = 0.227928 ms, Max = 0.275850 ms
+Running CUBLAS GPU-> M = 2048, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.244114 ms, Min = 0.237942 ms, Max = 0.284910 ms
+Running CUBLAS GPU-> M = 2048, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.252125 ms, Min = 0.247955 ms, Max = 0.279903 ms
+Running CUBLAS GPU-> M = 2048, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.261011 ms, Min = 0.256777 ms, Max = 0.306129 ms
+Running CUBLAS GPU-> M = 2048, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.270865 ms, Min = 0.267029 ms, Max = 0.287056 ms
+Running CUBLAS GPU-> M = 2048, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.282383 ms, Min = 0.275850 ms, Max = 0.318050 ms
+Running CUBLAS GPU-> M = 2048, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.288086 ms, Min = 0.283003 ms, Max = 0.302792 ms
+Running CUBLAS GPU-> M = 2048, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.305903 ms, Min = 0.298023 ms, Max = 0.329018 ms
+Running CUBLAS GPU-> M = 2048, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.307829 ms, Min = 0.303984 ms, Max = 0.339031 ms
+Running CUBLAS GPU-> M = 2048, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.324597 ms, Min = 0.318050 ms, Max = 0.371933 ms
+Running CUBLAS GPU-> M = 2048, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.326018 ms, Min = 0.319958 ms, Max = 0.343084 ms
+Running CUBLAS GPU-> M = 2560, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.026491 ms, Min = 0.024796 ms, Max = 0.071049 ms
+Running CUBLAS GPU-> M = 2560, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.038073 ms, Min = 0.036001 ms, Max = 0.058174 ms
+Running CUBLAS GPU-> M = 2560, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.050921 ms, Min = 0.048876 ms, Max = 0.085831 ms
+Running CUBLAS GPU-> M = 2560, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.065231 ms, Min = 0.063181 ms, Max = 0.080109 ms
+Running CUBLAS GPU-> M = 2560, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.074921 ms, Min = 0.073910 ms, Max = 0.078917 ms
+Running CUBLAS GPU-> M = 2560, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.088172 ms, Min = 0.085831 ms, Max = 0.107050 ms
+Running CUBLAS GPU-> M = 2560, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.099659 ms, Min = 0.097990 ms, Max = 0.117064 ms
+Running CUBLAS GPU-> M = 2560, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.112896 ms, Min = 0.109911 ms, Max = 0.145912 ms
+Running CUBLAS GPU-> M = 2560, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.124180 ms, Min = 0.122070 ms, Max = 0.143051 ms
+Running CUBLAS GPU-> M = 2560, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.136313 ms, Min = 0.134945 ms, Max = 0.153065 ms
+Running CUBLAS GPU-> M = 2560, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.148911 ms, Min = 0.146866 ms, Max = 0.190020 ms
+Running CUBLAS GPU-> M = 2560, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.161166 ms, Min = 0.158787 ms, Max = 0.180006 ms
+Running CUBLAS GPU-> M = 2560, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.171652 ms, Min = 0.169039 ms, Max = 0.190020 ms
+Running CUBLAS GPU-> M = 2560, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.185409 ms, Min = 0.182867 ms, Max = 0.215054 ms
+Running CUBLAS GPU-> M = 2560, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.197542 ms, Min = 0.195980 ms, Max = 0.223875 ms
+Running CUBLAS GPU-> M = 2560, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.211163 ms, Min = 0.208139 ms, Max = 0.263214 ms
+Running CUBLAS GPU-> M = 2560, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.220780 ms, Min = 0.217915 ms, Max = 0.236988 ms
+Running CUBLAS GPU-> M = 2560, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.233722 ms, Min = 0.231028 ms, Max = 0.262022 ms
+Running CUBLAS GPU-> M = 2560, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.246212 ms, Min = 0.243902 ms, Max = 0.262022 ms
+Running CUBLAS GPU-> M = 2560, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.258152 ms, Min = 0.255823 ms, Max = 0.275135 ms
+Running CUBLAS GPU-> M = 2560, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.270314 ms, Min = 0.267982 ms, Max = 0.287056 ms
+Running CUBLAS GPU-> M = 2560, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.283427 ms, Min = 0.280142 ms, Max = 0.288010 ms
+Running CUBLAS GPU-> M = 2560, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.294242 ms, Min = 0.291824 ms, Max = 0.308990 ms
+Running CUBLAS GPU-> M = 2560, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.307338 ms, Min = 0.303030 ms, Max = 0.322104 ms
+Running CUBLAS GPU-> M = 2560, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.320060 ms, Min = 0.316858 ms, Max = 0.355959 ms
+Running CUBLAS GPU-> M = 2560, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.334210 ms, Min = 0.331879 ms, Max = 0.349045 ms
+Running CUBLAS GPU-> M = 2560, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.344667 ms, Min = 0.339985 ms, Max = 0.356913 ms
+Running CUBLAS GPU-> M = 2560, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.359843 ms, Min = 0.352859 ms, Max = 0.370979 ms
+Running CUBLAS GPU-> M = 2560, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.369687 ms, Min = 0.365019 ms, Max = 0.384092 ms
+Running CUBLAS GPU-> M = 2560, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.380702 ms, Min = 0.377893 ms, Max = 0.397921 ms
+Running CUBLAS GPU-> M = 2560, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.393240 ms, Min = 0.389099 ms, Max = 0.407934 ms
+Running CUBLAS GPU-> M = 2560, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.407400 ms, Min = 0.400782 ms, Max = 0.423908 ms
+Running CUBLAS GPU-> M = 3072, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.028720 ms, Min = 0.026941 ms, Max = 0.073910 ms
+Running CUBLAS GPU-> M = 3072, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.043373 ms, Min = 0.041962 ms, Max = 0.061035 ms
+Running CUBLAS GPU-> M = 3072, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.058882 ms, Min = 0.056028 ms, Max = 0.103235 ms
+Running CUBLAS GPU-> M = 3072, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.075631 ms, Min = 0.072956 ms, Max = 0.118971 ms
+Running CUBLAS GPU-> M = 3072, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.089803 ms, Min = 0.087023 ms, Max = 0.116110 ms
+Running CUBLAS GPU-> M = 3072, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.103221 ms, Min = 0.099897 ms, Max = 0.148058 ms
+Running CUBLAS GPU-> M = 3072, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.117612 ms, Min = 0.114918 ms, Max = 0.160933 ms
+Running CUBLAS GPU-> M = 3072, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.136337 ms, Min = 0.131130 ms, Max = 0.180006 ms
+Running CUBLAS GPU-> M = 3072, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.147221 ms, Min = 0.144005 ms, Max = 0.191212 ms
+Running CUBLAS GPU-> M = 3072, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.162520 ms, Min = 0.158787 ms, Max = 0.182152 ms
+Running CUBLAS GPU-> M = 3072, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.175860 ms, Min = 0.172853 ms, Max = 0.223875 ms
+Running CUBLAS GPU-> M = 3072, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.191743 ms, Min = 0.187874 ms, Max = 0.235081 ms
+Running CUBLAS GPU-> M = 3072, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.205717 ms, Min = 0.202894 ms, Max = 0.247002 ms
+Running CUBLAS GPU-> M = 3072, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.221901 ms, Min = 0.217199 ms, Max = 0.244141 ms
+Running CUBLAS GPU-> M = 3072, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.235615 ms, Min = 0.231981 ms, Max = 0.267029 ms
+Running CUBLAS GPU-> M = 3072, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.253012 ms, Min = 0.247955 ms, Max = 0.297070 ms
+Running CUBLAS GPU-> M = 3072, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.273829 ms, Min = 0.262976 ms, Max = 0.832081 ms
+Running CUBLAS GPU-> M = 3072, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.281637 ms, Min = 0.275850 ms, Max = 0.296116 ms
+Running CUBLAS GPU-> M = 3072, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.296848 ms, Min = 0.290871 ms, Max = 0.342131 ms
+Running CUBLAS GPU-> M = 3072, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.316205 ms, Min = 0.309944 ms, Max = 0.362158 ms
+Running CUBLAS GPU-> M = 3072, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.327542 ms, Min = 0.322104 ms, Max = 0.368834 ms
+Running CUBLAS GPU-> M = 3072, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.341899 ms, Min = 0.336885 ms, Max = 0.368118 ms
+Running CUBLAS GPU-> M = 3072, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.354221 ms, Min = 0.349045 ms, Max = 0.375986 ms
+Running CUBLAS GPU-> M = 3072, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.372200 ms, Min = 0.365973 ms, Max = 0.401020 ms
+Running CUBLAS GPU-> M = 3072, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.386667 ms, Min = 0.380993 ms, Max = 0.400066 ms
+Running CUBLAS GPU-> M = 3072, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.400815 ms, Min = 0.391960 ms, Max = 0.415087 ms
+Running CUBLAS GPU-> M = 3072, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.416403 ms, Min = 0.408888 ms, Max = 0.432014 ms
+Running CUBLAS GPU-> M = 3072, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.431297 ms, Min = 0.423908 ms, Max = 0.453949 ms
+Running CUBLAS GPU-> M = 3072, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.447898 ms, Min = 0.438929 ms, Max = 0.463963 ms
+Running CUBLAS GPU-> M = 3072, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.463200 ms, Min = 0.452995 ms, Max = 0.488997 ms
+Running CUBLAS GPU-> M = 3072, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.475380 ms, Min = 0.468969 ms, Max = 0.498056 ms
+Running CUBLAS GPU-> M = 3072, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.495017 ms, Min = 0.478983 ms, Max = 0.508070 ms
+Running CUBLAS GPU-> M = 3584, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.029840 ms, Min = 0.028849 ms, Max = 0.035048 ms
+Running CUBLAS GPU-> M = 3584, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.047970 ms, Min = 0.046015 ms, Max = 0.062943 ms
+Running CUBLAS GPU-> M = 3584, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.065141 ms, Min = 0.062943 ms, Max = 0.108004 ms
+Running CUBLAS GPU-> M = 3584, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.082693 ms, Min = 0.080109 ms, Max = 0.126123 ms
+Running CUBLAS GPU-> M = 3584, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.100269 ms, Min = 0.097990 ms, Max = 0.143051 ms
+Running CUBLAS GPU-> M = 3584, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.115678 ms, Min = 0.113964 ms, Max = 0.149012 ms
+Running CUBLAS GPU-> M = 3584, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.133626 ms, Min = 0.130892 ms, Max = 0.178099 ms
+Running CUBLAS GPU-> M = 3584, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.149951 ms, Min = 0.146866 ms, Max = 0.185966 ms
+Running CUBLAS GPU-> M = 3584, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.165510 ms, Min = 0.163794 ms, Max = 0.169992 ms
+Running CUBLAS GPU-> M = 3584, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.183303 ms, Min = 0.180960 ms, Max = 0.200033 ms
+Running CUBLAS GPU-> M = 3584, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.200434 ms, Min = 0.197887 ms, Max = 0.218153 ms
+Running CUBLAS GPU-> M = 3584, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.217361 ms, Min = 0.213861 ms, Max = 0.231981 ms
+Running CUBLAS GPU-> M = 3584, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.234351 ms, Min = 0.230789 ms, Max = 0.255108 ms
+Running CUBLAS GPU-> M = 3584, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.251038 ms, Min = 0.247955 ms, Max = 0.283003 ms
+Running CUBLAS GPU-> M = 3584, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.267501 ms, Min = 0.264883 ms, Max = 0.276089 ms
+Running CUBLAS GPU-> M = 3584, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.286677 ms, Min = 0.279903 ms, Max = 0.308990 ms
+Running CUBLAS GPU-> M = 3584, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.302041 ms, Min = 0.298023 ms, Max = 0.331163 ms
+Running CUBLAS GPU-> M = 3584, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.318167 ms, Min = 0.314951 ms, Max = 0.368118 ms
+Running CUBLAS GPU-> M = 3584, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.337503 ms, Min = 0.333071 ms, Max = 0.374794 ms
+Running CUBLAS GPU-> M = 3584, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.353470 ms, Min = 0.349045 ms, Max = 0.365973 ms
+Running CUBLAS GPU-> M = 3584, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.370092 ms, Min = 0.365973 ms, Max = 0.383139 ms
+Running CUBLAS GPU-> M = 3584, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.388551 ms, Min = 0.383139 ms, Max = 0.401020 ms
+Running CUBLAS GPU-> M = 3584, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.403755 ms, Min = 0.398874 ms, Max = 0.417948 ms
+Running CUBLAS GPU-> M = 3584, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.423672 ms, Min = 0.415087 ms, Max = 0.437975 ms
+Running CUBLAS GPU-> M = 3584, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.440738 ms, Min = 0.433922 ms, Max = 0.452995 ms
+Running CUBLAS GPU-> M = 3584, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.456688 ms, Min = 0.449896 ms, Max = 0.478029 ms
+Running CUBLAS GPU-> M = 3584, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.473728 ms, Min = 0.466108 ms, Max = 0.492096 ms
+Running CUBLAS GPU-> M = 3584, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.493982 ms, Min = 0.481844 ms, Max = 0.545025 ms
+Running CUBLAS GPU-> M = 3584, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.509589 ms, Min = 0.501871 ms, Max = 0.553131 ms
+Running CUBLAS GPU-> M = 3584, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.528359 ms, Min = 0.519991 ms, Max = 0.540018 ms
+Running CUBLAS GPU-> M = 3584, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.543830 ms, Min = 0.534058 ms, Max = 0.562906 ms
+Running CUBLAS GPU-> M = 3584, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.563459 ms, Min = 0.551939 ms, Max = 0.582933 ms
+Running CUBLAS GPU-> M = 4096, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.033278 ms, Min = 0.031948 ms, Max = 0.051022 ms
+Running CUBLAS GPU-> M = 4096, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.053029 ms, Min = 0.050783 ms, Max = 0.070095 ms
+Running CUBLAS GPU-> M = 4096, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.072811 ms, Min = 0.069857 ms, Max = 0.112057 ms
+Running CUBLAS GPU-> M = 4096, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.090871 ms, Min = 0.087976 ms, Max = 0.106812 ms
+Running CUBLAS GPU-> M = 4096, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.110500 ms, Min = 0.108957 ms, Max = 0.115871 ms
+Running CUBLAS GPU-> M = 4096, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.129821 ms, Min = 0.127077 ms, Max = 0.147820 ms
+Running CUBLAS GPU-> M = 4096, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.149949 ms, Min = 0.146866 ms, Max = 0.201941 ms
+Running CUBLAS GPU-> M = 4096, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.169220 ms, Min = 0.165939 ms, Max = 0.207186 ms
+Running CUBLAS GPU-> M = 4096, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.188558 ms, Min = 0.184774 ms, Max = 0.216961 ms
+Running CUBLAS GPU-> M = 4096, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.207319 ms, Min = 0.203848 ms, Max = 0.250816 ms
+Running CUBLAS GPU-> M = 4096, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.228159 ms, Min = 0.222921 ms, Max = 0.272036 ms
+Running CUBLAS GPU-> M = 4096, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.246968 ms, Min = 0.241995 ms, Max = 0.263929 ms
+Running CUBLAS GPU-> M = 4096, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.264866 ms, Min = 0.260115 ms, Max = 0.288010 ms
+Running CUBLAS GPU-> M = 4096, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.284228 ms, Min = 0.279903 ms, Max = 0.298977 ms
+Running CUBLAS GPU-> M = 4096, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.303802 ms, Min = 0.298977 ms, Max = 0.318050 ms
+Running CUBLAS GPU-> M = 4096, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.321920 ms, Min = 0.317812 ms, Max = 0.348806 ms
+Running CUBLAS GPU-> M = 4096, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.342619 ms, Min = 0.338078 ms, Max = 0.357151 ms
+Running CUBLAS GPU-> M = 4096, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.361691 ms, Min = 0.356913 ms, Max = 0.374079 ms
+Running CUBLAS GPU-> M = 4096, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.382133 ms, Min = 0.375032 ms, Max = 0.393152 ms
+Running CUBLAS GPU-> M = 4096, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.405431 ms, Min = 0.396013 ms, Max = 0.416040 ms
+Running CUBLAS GPU-> M = 4096, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.420680 ms, Min = 0.412941 ms, Max = 0.439882 ms
+Running CUBLAS GPU-> M = 4096, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.441401 ms, Min = 0.432968 ms, Max = 0.456095 ms
+Running CUBLAS GPU-> M = 4096, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.459359 ms, Min = 0.450850 ms, Max = 0.473976 ms
+Running CUBLAS GPU-> M = 4096, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.480533 ms, Min = 0.470161 ms, Max = 0.494003 ms
+Running CUBLAS GPU-> M = 4096, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.500469 ms, Min = 0.490189 ms, Max = 0.529051 ms
+Running CUBLAS GPU-> M = 4096, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.516312 ms, Min = 0.509024 ms, Max = 0.530005 ms
+Running CUBLAS GPU-> M = 4096, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.540500 ms, Min = 0.529051 ms, Max = 0.574827 ms
+Running CUBLAS GPU-> M = 4096, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.557599 ms, Min = 0.546932 ms, Max = 0.581026 ms
+Running CUBLAS GPU-> M = 4096, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.577595 ms, Min = 0.566959 ms, Max = 0.587940 ms
+Running CUBLAS GPU-> M = 4096, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.596364 ms, Min = 0.585794 ms, Max = 0.634909 ms
+Running CUBLAS GPU-> M = 4096, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.616500 ms, Min = 0.605822 ms, Max = 0.635147 ms
+Running CUBLAS GPU-> M = 4096, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.635140 ms, Min = 0.624895 ms, Max = 0.679016 ms
+Running CUBLAS GPU-> M = 4608, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.035281 ms, Min = 0.033855 ms, Max = 0.052929 ms
+Running CUBLAS GPU-> M = 4608, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.056818 ms, Min = 0.054836 ms, Max = 0.100136 ms
+Running CUBLAS GPU-> M = 4608, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.078418 ms, Min = 0.076771 ms, Max = 0.097990 ms
+Running CUBLAS GPU-> M = 4608, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.103798 ms, Min = 0.099897 ms, Max = 0.145912 ms
+Running CUBLAS GPU-> M = 4608, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.123298 ms, Min = 0.119925 ms, Max = 0.165939 ms
+Running CUBLAS GPU-> M = 4608, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.143564 ms, Min = 0.141859 ms, Max = 0.163078 ms
+Running CUBLAS GPU-> M = 4608, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.164509 ms, Min = 0.162840 ms, Max = 0.182152 ms
+Running CUBLAS GPU-> M = 4608, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.186450 ms, Min = 0.184774 ms, Max = 0.190973 ms
+Running CUBLAS GPU-> M = 4608, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.207410 ms, Min = 0.205994 ms, Max = 0.212908 ms
+Running CUBLAS GPU-> M = 4608, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.229058 ms, Min = 0.226974 ms, Max = 0.247955 ms
+Running CUBLAS GPU-> M = 4608, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.250409 ms, Min = 0.247955 ms, Max = 0.270128 ms
+Running CUBLAS GPU-> M = 4608, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.273082 ms, Min = 0.269890 ms, Max = 0.287056 ms
+Running CUBLAS GPU-> M = 4608, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.293601 ms, Min = 0.291109 ms, Max = 0.313997 ms
+Running CUBLAS GPU-> M = 4608, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.315042 ms, Min = 0.313044 ms, Max = 0.329018 ms
+Running CUBLAS GPU-> M = 4608, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.337503 ms, Min = 0.334024 ms, Max = 0.360966 ms
+Running CUBLAS GPU-> M = 4608, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.358999 ms, Min = 0.355959 ms, Max = 0.375032 ms
+Running CUBLAS GPU-> M = 4608, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.381045 ms, Min = 0.376940 ms, Max = 0.414848 ms
+Running CUBLAS GPU-> M = 4608, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.402231 ms, Min = 0.397921 ms, Max = 0.415802 ms
+Running CUBLAS GPU-> M = 4608, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.422893 ms, Min = 0.418901 ms, Max = 0.443935 ms
+Running CUBLAS GPU-> M = 4608, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.447519 ms, Min = 0.442028 ms, Max = 0.488043 ms
+Running CUBLAS GPU-> M = 4608, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.468740 ms, Min = 0.463009 ms, Max = 0.481129 ms
+Running CUBLAS GPU-> M = 4608, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.489841 ms, Min = 0.483990 ms, Max = 0.511169 ms
+Running CUBLAS GPU-> M = 4608, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.513878 ms, Min = 0.505924 ms, Max = 0.554085 ms
+Running CUBLAS GPU-> M = 4608, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.536544 ms, Min = 0.527859 ms, Max = 0.568151 ms
+Running CUBLAS GPU-> M = 4608, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.556779 ms, Min = 0.549078 ms, Max = 0.569105 ms
+Running CUBLAS GPU-> M = 4608, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.576825 ms, Min = 0.569820 ms, Max = 0.595093 ms
+Running CUBLAS GPU-> M = 4608, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.600240 ms, Min = 0.592947 ms, Max = 0.617981 ms
+Running CUBLAS GPU-> M = 4608, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.618377 ms, Min = 0.613928 ms, Max = 0.629902 ms
+Running CUBLAS GPU-> M = 4608, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.642042 ms, Min = 0.633955 ms, Max = 0.663996 ms
+Running CUBLAS GPU-> M = 4608, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.665801 ms, Min = 0.656843 ms, Max = 0.721931 ms
+Running CUBLAS GPU-> M = 4608, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.686829 ms, Min = 0.677824 ms, Max = 0.705004 ms
+Running CUBLAS GPU-> M = 4608, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.709317 ms, Min = 0.698090 ms, Max = 0.724792 ms
+Running CUBLAS GPU-> M = 5120, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.037489 ms, Min = 0.036001 ms, Max = 0.054121 ms
+Running CUBLAS GPU-> M = 5120, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.061693 ms, Min = 0.059843 ms, Max = 0.077963 ms
+Running CUBLAS GPU-> M = 5120, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.085218 ms, Min = 0.082970 ms, Max = 0.104189 ms
+Running CUBLAS GPU-> M = 5120, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.110011 ms, Min = 0.107765 ms, Max = 0.127792 ms
+Running CUBLAS GPU-> M = 5120, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.134161 ms, Min = 0.131845 ms, Max = 0.154972 ms
+Running CUBLAS GPU-> M = 5120, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.157843 ms, Min = 0.155926 ms, Max = 0.191212 ms
+Running CUBLAS GPU-> M = 5120, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.181181 ms, Min = 0.178814 ms, Max = 0.196934 ms
+Running CUBLAS GPU-> M = 5120, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.206211 ms, Min = 0.202894 ms, Max = 0.223875 ms
+Running CUBLAS GPU-> M = 5120, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.230031 ms, Min = 0.226974 ms, Max = 0.275135 ms
+Running CUBLAS GPU-> M = 5120, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.253470 ms, Min = 0.249863 ms, Max = 0.262976 ms
+Running CUBLAS GPU-> M = 5120, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.277240 ms, Min = 0.273943 ms, Max = 0.299931 ms
+Running CUBLAS GPU-> M = 5120, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.301640 ms, Min = 0.298977 ms, Max = 0.319004 ms
+Running CUBLAS GPU-> M = 5120, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.331390 ms, Min = 0.321865 ms, Max = 0.960112 ms
+Running CUBLAS GPU-> M = 5120, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.350814 ms, Min = 0.345945 ms, Max = 0.387192 ms
+Running CUBLAS GPU-> M = 5120, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.373399 ms, Min = 0.370026 ms, Max = 0.390053 ms
+Running CUBLAS GPU-> M = 5120, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.398147 ms, Min = 0.393152 ms, Max = 0.426054 ms
+Running CUBLAS GPU-> M = 5120, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.421340 ms, Min = 0.416994 ms, Max = 0.433922 ms
+Running CUBLAS GPU-> M = 5120, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.447600 ms, Min = 0.441074 ms, Max = 0.481129 ms
+Running CUBLAS GPU-> M = 5120, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.473156 ms, Min = 0.465870 ms, Max = 0.492096 ms
+Running CUBLAS GPU-> M = 5120, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.497508 ms, Min = 0.488997 ms, Max = 0.522137 ms
+Running CUBLAS GPU-> M = 5120, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.520651 ms, Min = 0.512838 ms, Max = 0.540018 ms
+Running CUBLAS GPU-> M = 5120, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.547762 ms, Min = 0.537157 ms, Max = 0.561953 ms
+Running CUBLAS GPU-> M = 5120, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.567927 ms, Min = 0.559092 ms, Max = 0.578165 ms
+Running CUBLAS GPU-> M = 5120, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.591483 ms, Min = 0.583887 ms, Max = 0.614882 ms
+Running CUBLAS GPU-> M = 5120, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.614972 ms, Min = 0.607014 ms, Max = 0.629902 ms
+Running CUBLAS GPU-> M = 5120, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.640392 ms, Min = 0.631094 ms, Max = 0.658035 ms
+Running CUBLAS GPU-> M = 5120, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.667391 ms, Min = 0.654936 ms, Max = 0.693083 ms
+Running CUBLAS GPU-> M = 5120, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.691068 ms, Min = 0.680923 ms, Max = 0.706911 ms
+Running CUBLAS GPU-> M = 5120, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.715334 ms, Min = 0.703096 ms, Max = 0.735998 ms
+Running CUBLAS GPU-> M = 5120, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.741954 ms, Min = 0.730038 ms, Max = 0.756025 ms
+Running CUBLAS GPU-> M = 5120, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.765760 ms, Min = 0.751019 ms, Max = 0.787020 ms
+Running CUBLAS GPU-> M = 5120, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.791264 ms, Min = 0.775099 ms, Max = 0.803947 ms
+Running CUBLAS GPU-> M = 5632, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.039868 ms, Min = 0.038862 ms, Max = 0.056028 ms
+Running CUBLAS GPU-> M = 5632, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.066471 ms, Min = 0.064850 ms, Max = 0.082970 ms
+Running CUBLAS GPU-> M = 5632, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.092380 ms, Min = 0.090837 ms, Max = 0.112057 ms
+Running CUBLAS GPU-> M = 5632, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.119388 ms, Min = 0.116825 ms, Max = 0.138998 ms
+Running CUBLAS GPU-> M = 5632, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.145199 ms, Min = 0.143051 ms, Max = 0.162840 ms
+Running CUBLAS GPU-> M = 5632, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.171371 ms, Min = 0.169992 ms, Max = 0.189066 ms
+Running CUBLAS GPU-> M = 5632, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.197964 ms, Min = 0.195980 ms, Max = 0.216961 ms
+Running CUBLAS GPU-> M = 5632, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.225272 ms, Min = 0.221014 ms, Max = 0.254154 ms
+Running CUBLAS GPU-> M = 5632, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.250499 ms, Min = 0.247955 ms, Max = 0.266075 ms
+Running CUBLAS GPU-> M = 5632, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.277412 ms, Min = 0.274897 ms, Max = 0.324965 ms
+Running CUBLAS GPU-> M = 5632, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.303903 ms, Min = 0.299931 ms, Max = 0.344038 ms
+Running CUBLAS GPU-> M = 5632, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.330400 ms, Min = 0.326872 ms, Max = 0.362873 ms
+Running CUBLAS GPU-> M = 5632, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.356603 ms, Min = 0.352859 ms, Max = 0.378132 ms
+Running CUBLAS GPU-> M = 5632, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.383537 ms, Min = 0.379801 ms, Max = 0.401020 ms
+Running CUBLAS GPU-> M = 5632, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.409751 ms, Min = 0.405788 ms, Max = 0.437975 ms
+Running CUBLAS GPU-> M = 5632, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.438676 ms, Min = 0.431776 ms, Max = 0.454903 ms
+Running CUBLAS GPU-> M = 5632, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.463879 ms, Min = 0.458956 ms, Max = 0.495911 ms
+Running CUBLAS GPU-> M = 5632, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.489450 ms, Min = 0.483990 ms, Max = 0.504971 ms
+Running CUBLAS GPU-> M = 5632, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.518851 ms, Min = 0.510931 ms, Max = 0.534058 ms
+Running CUBLAS GPU-> M = 5632, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.544870 ms, Min = 0.536919 ms, Max = 0.560999 ms
+Running CUBLAS GPU-> M = 5632, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.568333 ms, Min = 0.561953 ms, Max = 0.581026 ms
+Running CUBLAS GPU-> M = 5632, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.596600 ms, Min = 0.588894 ms, Max = 0.613928 ms
+Running CUBLAS GPU-> M = 5632, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.622790 ms, Min = 0.614882 ms, Max = 0.637054 ms
+Running CUBLAS GPU-> M = 5632, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.651703 ms, Min = 0.643015 ms, Max = 0.662088 ms
+Running CUBLAS GPU-> M = 5632, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.678062 ms, Min = 0.668049 ms, Max = 0.715017 ms
+Running CUBLAS GPU-> M = 5632, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.705090 ms, Min = 0.692844 ms, Max = 0.714779 ms
+Running CUBLAS GPU-> M = 5632, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.730696 ms, Min = 0.718832 ms, Max = 0.753880 ms
+Running CUBLAS GPU-> M = 5632, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.756955 ms, Min = 0.746965 ms, Max = 0.776052 ms
+Running CUBLAS GPU-> M = 5632, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.782645 ms, Min = 0.772953 ms, Max = 0.803947 ms
+Running CUBLAS GPU-> M = 5632, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.812619 ms, Min = 0.800848 ms, Max = 0.862837 ms
+Running CUBLAS GPU-> M = 5632, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.835230 ms, Min = 0.822783 ms, Max = 0.875950 ms
+Running CUBLAS GPU-> M = 5632, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.863941 ms, Min = 0.853062 ms, Max = 0.895977 ms
+Running CUBLAS GPU-> M = 6144, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.042703 ms, Min = 0.041008 ms, Max = 0.086069 ms
+Running CUBLAS GPU-> M = 6144, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.070803 ms, Min = 0.068903 ms, Max = 0.089169 ms
+Running CUBLAS GPU-> M = 6144, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.100291 ms, Min = 0.097990 ms, Max = 0.117064 ms
+Running CUBLAS GPU-> M = 6144, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.128706 ms, Min = 0.126839 ms, Max = 0.157833 ms
+Running CUBLAS GPU-> M = 6144, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.157251 ms, Min = 0.154972 ms, Max = 0.161171 ms
+Running CUBLAS GPU-> M = 6144, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.186744 ms, Min = 0.184059 ms, Max = 0.234842 ms
+Running CUBLAS GPU-> M = 6144, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.215068 ms, Min = 0.211954 ms, Max = 0.232935 ms
+Running CUBLAS GPU-> M = 6144, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.244198 ms, Min = 0.241995 ms, Max = 0.262976 ms
+Running CUBLAS GPU-> M = 6144, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.272651 ms, Min = 0.269890 ms, Max = 0.288963 ms
+Running CUBLAS GPU-> M = 6144, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.301790 ms, Min = 0.297785 ms, Max = 0.315905 ms
+Running CUBLAS GPU-> M = 6144, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.330429 ms, Min = 0.326157 ms, Max = 0.345945 ms
+Running CUBLAS GPU-> M = 6144, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.362165 ms, Min = 0.356197 ms, Max = 0.379086 ms
+Running CUBLAS GPU-> M = 6144, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.388820 ms, Min = 0.384092 ms, Max = 0.396013 ms
+Running CUBLAS GPU-> M = 6144, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.418561 ms, Min = 0.411987 ms, Max = 0.439167 ms
+Running CUBLAS GPU-> M = 6144, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.447514 ms, Min = 0.439882 ms, Max = 0.483990 ms
+Running CUBLAS GPU-> M = 6144, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.475569 ms, Min = 0.469923 ms, Max = 0.504971 ms
+Running CUBLAS GPU-> M = 6144, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.507655 ms, Min = 0.499010 ms, Max = 0.531912 ms
+Running CUBLAS GPU-> M = 6144, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.535429 ms, Min = 0.527859 ms, Max = 0.544786 ms
+Running CUBLAS GPU-> M = 6144, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.566273 ms, Min = 0.557184 ms, Max = 0.585079 ms
+Running CUBLAS GPU-> M = 6144, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.593021 ms, Min = 0.585079 ms, Max = 0.614882 ms
+Running CUBLAS GPU-> M = 6144, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.620978 ms, Min = 0.612020 ms, Max = 0.638962 ms
+Running CUBLAS GPU-> M = 6144, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.654061 ms, Min = 0.642061 ms, Max = 0.702143 ms
+Running CUBLAS GPU-> M = 6144, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.681002 ms, Min = 0.670910 ms, Max = 0.698090 ms
+Running CUBLAS GPU-> M = 6144, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.710192 ms, Min = 0.702143 ms, Max = 0.725985 ms
+Running CUBLAS GPU-> M = 6144, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.740829 ms, Min = 0.730991 ms, Max = 0.753164 ms
+Running CUBLAS GPU-> M = 6144, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.769427 ms, Min = 0.758886 ms, Max = 0.807047 ms
+Running CUBLAS GPU-> M = 6144, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.798120 ms, Min = 0.786066 ms, Max = 0.817060 ms
+Running CUBLAS GPU-> M = 6144, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.827003 ms, Min = 0.815153 ms, Max = 0.849009 ms
+Running CUBLAS GPU-> M = 6144, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.858080 ms, Min = 0.845909 ms, Max = 0.883818 ms
+Running CUBLAS GPU-> M = 6144, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.886018 ms, Min = 0.874996 ms, Max = 0.899076 ms
+Running CUBLAS GPU-> M = 6144, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.916221 ms, Min = 0.903130 ms, Max = 0.941992 ms
+Running CUBLAS GPU-> M = 6144, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=0.948100 ms, Min = 0.933886 ms, Max = 0.960827 ms
+Running CUBLAS GPU-> M = 6656, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.044224 ms, Min = 0.042915 ms, Max = 0.060081 ms
+Running CUBLAS GPU-> M = 6656, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.076039 ms, Min = 0.073910 ms, Max = 0.092030 ms
+Running CUBLAS GPU-> M = 6656, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.106978 ms, Min = 0.104904 ms, Max = 0.164032 ms
+Running CUBLAS GPU-> M = 6656, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.143290 ms, Min = 0.136852 ms, Max = 0.182867 ms
+Running CUBLAS GPU-> M = 6656, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.169399 ms, Min = 0.166893 ms, Max = 0.190020 ms
+Running CUBLAS GPU-> M = 6656, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.201159 ms, Min = 0.198126 ms, Max = 0.247002 ms
+Running CUBLAS GPU-> M = 6656, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.231490 ms, Min = 0.228882 ms, Max = 0.255823 ms
+Running CUBLAS GPU-> M = 6656, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.263152 ms, Min = 0.259876 ms, Max = 0.303030 ms
+Running CUBLAS GPU-> M = 6656, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.295093 ms, Min = 0.290871 ms, Max = 0.338078 ms
+Running CUBLAS GPU-> M = 6656, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.325270 ms, Min = 0.321865 ms, Max = 0.375032 ms
+Running CUBLAS GPU-> M = 6656, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.356627 ms, Min = 0.352859 ms, Max = 0.386953 ms
+Running CUBLAS GPU-> M = 6656, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.388331 ms, Min = 0.384092 ms, Max = 0.420809 ms
+Running CUBLAS GPU-> M = 6656, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.420399 ms, Min = 0.415087 ms, Max = 0.472784 ms
+Running CUBLAS GPU-> M = 6656, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.449958 ms, Min = 0.445127 ms, Max = 0.465870 ms
+Running CUBLAS GPU-> M = 6656, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.484052 ms, Min = 0.478029 ms, Max = 0.503063 ms
+Running CUBLAS GPU-> M = 6656, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.515039 ms, Min = 0.508070 ms, Max = 0.524998 ms
+Running CUBLAS GPU-> M = 6656, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.545218 ms, Min = 0.539780 ms, Max = 0.582218 ms
+Running CUBLAS GPU-> M = 6656, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.577359 ms, Min = 0.571012 ms, Max = 0.590086 ms
+Running CUBLAS GPU-> M = 6656, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.608461 ms, Min = 0.602961 ms, Max = 0.617027 ms
+Running CUBLAS GPU-> M = 6656, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.638478 ms, Min = 0.632048 ms, Max = 0.654936 ms
+Running CUBLAS GPU-> M = 6656, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.669582 ms, Min = 0.663996 ms, Max = 0.683069 ms
+Running CUBLAS GPU-> M = 6656, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.702667 ms, Min = 0.694036 ms, Max = 0.746012 ms
+Running CUBLAS GPU-> M = 6656, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.732520 ms, Min = 0.725031 ms, Max = 0.756979 ms
+Running CUBLAS GPU-> M = 6656, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.765252 ms, Min = 0.756979 ms, Max = 0.809908 ms
+Running CUBLAS GPU-> M = 6656, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.796804 ms, Min = 0.787020 ms, Max = 0.833988 ms
+Running CUBLAS GPU-> M = 6656, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.828271 ms, Min = 0.819921 ms, Max = 0.848055 ms
+Running CUBLAS GPU-> M = 6656, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.858982 ms, Min = 0.849962 ms, Max = 0.895977 ms
+Running CUBLAS GPU-> M = 6656, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.891089 ms, Min = 0.880003 ms, Max = 0.914097 ms
+Running CUBLAS GPU-> M = 6656, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.924406 ms, Min = 0.912905 ms, Max = 0.959873 ms
+Running CUBLAS GPU-> M = 6656, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=0.956798 ms, Min = 0.944853 ms, Max = 0.998974 ms
+Running CUBLAS GPU-> M = 6656, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=0.984352 ms, Min = 0.972986 ms, Max = 1.008987 ms
+Running CUBLAS GPU-> M = 6656, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.017144 ms, Min = 1.008034 ms, Max = 1.069069 ms
+Running CUBLAS GPU-> M = 7168, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.047832 ms, Min = 0.045776 ms, Max = 0.092030 ms
+Running CUBLAS GPU-> M = 7168, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.080981 ms, Min = 0.078917 ms, Max = 0.099897 ms
+Running CUBLAS GPU-> M = 7168, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.113983 ms, Min = 0.112772 ms, Max = 0.125885 ms
+Running CUBLAS GPU-> M = 7168, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.147953 ms, Min = 0.144958 ms, Max = 0.164032 ms
+Running CUBLAS GPU-> M = 7168, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.180769 ms, Min = 0.179052 ms, Max = 0.202894 ms
+Running CUBLAS GPU-> M = 7168, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.215156 ms, Min = 0.212908 ms, Max = 0.229120 ms
+Running CUBLAS GPU-> M = 7168, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.248127 ms, Min = 0.245810 ms, Max = 0.262976 ms
+Running CUBLAS GPU-> M = 7168, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.282478 ms, Min = 0.279903 ms, Max = 0.313044 ms
+Running CUBLAS GPU-> M = 7168, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.314982 ms, Min = 0.311852 ms, Max = 0.355005 ms
+Running CUBLAS GPU-> M = 7168, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.351861 ms, Min = 0.346899 ms, Max = 0.395060 ms
+Running CUBLAS GPU-> M = 7168, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.382774 ms, Min = 0.378847 ms, Max = 0.399113 ms
+Running CUBLAS GPU-> M = 7168, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.417271 ms, Min = 0.413179 ms, Max = 0.436068 ms
+Running CUBLAS GPU-> M = 7168, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.449290 ms, Min = 0.445843 ms, Max = 0.463963 ms
+Running CUBLAS GPU-> M = 7168, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.488720 ms, Min = 0.482082 ms, Max = 0.525951 ms
+Running CUBLAS GPU-> M = 7168, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.518115 ms, Min = 0.511885 ms, Max = 0.530005 ms
+Running CUBLAS GPU-> M = 7168, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.553200 ms, Min = 0.546932 ms, Max = 0.571966 ms
+Running CUBLAS GPU-> M = 7168, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.584984 ms, Min = 0.579119 ms, Max = 0.601053 ms
+Running CUBLAS GPU-> M = 7168, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.621862 ms, Min = 0.614882 ms, Max = 0.631094 ms
+Running CUBLAS GPU-> M = 7168, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.652652 ms, Min = 0.646830 ms, Max = 0.658989 ms
+Running CUBLAS GPU-> M = 7168, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.690100 ms, Min = 0.682116 ms, Max = 0.721931 ms
+Running CUBLAS GPU-> M = 7168, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.720344 ms, Min = 0.713825 ms, Max = 0.735044 ms
+Running CUBLAS GPU-> M = 7168, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.758374 ms, Min = 0.749111 ms, Max = 0.787973 ms
+Running CUBLAS GPU-> M = 7168, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.786986 ms, Min = 0.778913 ms, Max = 0.801802 ms
+Running CUBLAS GPU-> M = 7168, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.825751 ms, Min = 0.816107 ms, Max = 0.844002 ms
+Running CUBLAS GPU-> M = 7168, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.855253 ms, Min = 0.846148 ms, Max = 0.869989 ms
+Running CUBLAS GPU-> M = 7168, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.894411 ms, Min = 0.880003 ms, Max = 0.910044 ms
+Running CUBLAS GPU-> M = 7168, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.924442 ms, Min = 0.911951 ms, Max = 0.936985 ms
+Running CUBLAS GPU-> M = 7168, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=0.962431 ms, Min = 0.950098 ms, Max = 0.975847 ms
+Running CUBLAS GPU-> M = 7168, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=0.992243 ms, Min = 0.982046 ms, Max = 1.011133 ms
+Running CUBLAS GPU-> M = 7168, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.029961 ms, Min = 1.018047 ms, Max = 1.083851 ms
+Running CUBLAS GPU-> M = 7168, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.059833 ms, Min = 1.047134 ms, Max = 1.097918 ms
+Running CUBLAS GPU-> M = 7168, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.095681 ms, Min = 1.082182 ms, Max = 1.118898 ms
+Running CUBLAS GPU-> M = 7680, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.049489 ms, Min = 0.047922 ms, Max = 0.069141 ms
+Running CUBLAS GPU-> M = 7680, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.085425 ms, Min = 0.083923 ms, Max = 0.102997 ms
+Running CUBLAS GPU-> M = 7680, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.121412 ms, Min = 0.118971 ms, Max = 0.138998 ms
+Running CUBLAS GPU-> M = 7680, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.157239 ms, Min = 0.155926 ms, Max = 0.175953 ms
+Running CUBLAS GPU-> M = 7680, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.193610 ms, Min = 0.190973 ms, Max = 0.238895 ms
+Running CUBLAS GPU-> M = 7680, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.228770 ms, Min = 0.226974 ms, Max = 0.241995 ms
+Running CUBLAS GPU-> M = 7680, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.264721 ms, Min = 0.262022 ms, Max = 0.282049 ms
+Running CUBLAS GPU-> M = 7680, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.300884 ms, Min = 0.298023 ms, Max = 0.319004 ms
+Running CUBLAS GPU-> M = 7680, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.336936 ms, Min = 0.333786 ms, Max = 0.373125 ms
+Running CUBLAS GPU-> M = 7680, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.374820 ms, Min = 0.370979 ms, Max = 0.393152 ms
+Running CUBLAS GPU-> M = 7680, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.409172 ms, Min = 0.404835 ms, Max = 0.436068 ms
+Running CUBLAS GPU-> M = 7680, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.445449 ms, Min = 0.441074 ms, Max = 0.465155 ms
+Running CUBLAS GPU-> M = 7680, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.484293 ms, Min = 0.476837 ms, Max = 0.829935 ms
+Running CUBLAS GPU-> M = 7680, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.521944 ms, Min = 0.514030 ms, Max = 0.664949 ms
+Running CUBLAS GPU-> M = 7680, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.554180 ms, Min = 0.548840 ms, Max = 0.588894 ms
+Running CUBLAS GPU-> M = 7680, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.591099 ms, Min = 0.584126 ms, Max = 0.632048 ms
+Running CUBLAS GPU-> M = 7680, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.626457 ms, Min = 0.621080 ms, Max = 0.642061 ms
+Running CUBLAS GPU-> M = 7680, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.661390 ms, Min = 0.655890 ms, Max = 0.676155 ms
+Running CUBLAS GPU-> M = 7680, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.697708 ms, Min = 0.691891 ms, Max = 0.716925 ms
+Running CUBLAS GPU-> M = 7680, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.738003 ms, Min = 0.732899 ms, Max = 0.757933 ms
+Running CUBLAS GPU-> M = 7680, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.771480 ms, Min = 0.763893 ms, Max = 0.779867 ms
+Running CUBLAS GPU-> M = 7680, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.807190 ms, Min = 0.797987 ms, Max = 0.828028 ms
+Running CUBLAS GPU-> M = 7680, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.842478 ms, Min = 0.834942 ms, Max = 0.875950 ms
+Running CUBLAS GPU-> M = 7680, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.879328 ms, Min = 0.872850 ms, Max = 0.895977 ms
+Running CUBLAS GPU-> M = 7680, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.915942 ms, Min = 0.905991 ms, Max = 0.938177 ms
+Running CUBLAS GPU-> M = 7680, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=0.955057 ms, Min = 0.946045 ms, Max = 0.971079 ms
+Running CUBLAS GPU-> M = 7680, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=0.988088 ms, Min = 0.977039 ms, Max = 1.006126 ms
+Running CUBLAS GPU-> M = 7680, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.026928 ms, Min = 1.016855 ms, Max = 1.046896 ms
+Running CUBLAS GPU-> M = 7680, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.060300 ms, Min = 1.052141 ms, Max = 1.082182 ms
+Running CUBLAS GPU-> M = 7680, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.099818 ms, Min = 1.090050 ms, Max = 1.111031 ms
+Running CUBLAS GPU-> M = 7680, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.133239 ms, Min = 1.122952 ms, Max = 1.157045 ms
+Running CUBLAS GPU-> M = 7680, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.169770 ms, Min = 1.162052 ms, Max = 1.183987 ms
+Running CUBLAS GPU-> M = 8192, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.052366 ms, Min = 0.050783 ms, Max = 0.086069 ms
+Running CUBLAS GPU-> M = 8192, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.091527 ms, Min = 0.089884 ms, Max = 0.108004 ms
+Running CUBLAS GPU-> M = 8192, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.129550 ms, Min = 0.127792 ms, Max = 0.145912 ms
+Running CUBLAS GPU-> M = 8192, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.168362 ms, Min = 0.165939 ms, Max = 0.184059 ms
+Running CUBLAS GPU-> M = 8192, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.207093 ms, Min = 0.204086 ms, Max = 0.241041 ms
+Running CUBLAS GPU-> M = 8192, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.246484 ms, Min = 0.242949 ms, Max = 0.281096 ms
+Running CUBLAS GPU-> M = 8192, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.285103 ms, Min = 0.280857 ms, Max = 0.326872 ms
+Running CUBLAS GPU-> M = 8192, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.322144 ms, Min = 0.318766 ms, Max = 0.339031 ms
+Running CUBLAS GPU-> M = 8192, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.362289 ms, Min = 0.358105 ms, Max = 0.378847 ms
+Running CUBLAS GPU-> M = 8192, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.400789 ms, Min = 0.396967 ms, Max = 0.419140 ms
+Running CUBLAS GPU-> M = 8192, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.438662 ms, Min = 0.433922 ms, Max = 0.457048 ms
+Running CUBLAS GPU-> M = 8192, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.478175 ms, Min = 0.473022 ms, Max = 0.497103 ms
+Running CUBLAS GPU-> M = 8192, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.516639 ms, Min = 0.510931 ms, Max = 0.532866 ms
+Running CUBLAS GPU-> M = 8192, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.555990 ms, Min = 0.550985 ms, Max = 0.592947 ms
+Running CUBLAS GPU-> M = 8192, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.594573 ms, Min = 0.589848 ms, Max = 0.628948 ms
+Running CUBLAS GPU-> M = 8192, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.631361 ms, Min = 0.624895 ms, Max = 0.646114 ms
+Running CUBLAS GPU-> M = 8192, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.671010 ms, Min = 0.666857 ms, Max = 0.689030 ms
+Running CUBLAS GPU-> M = 8192, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.709431 ms, Min = 0.704050 ms, Max = 0.716209 ms
+Running CUBLAS GPU-> M = 8192, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.748770 ms, Min = 0.741959 ms, Max = 0.787973 ms
+Running CUBLAS GPU-> M = 8192, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.788038 ms, Min = 0.780106 ms, Max = 0.818014 ms
+Running CUBLAS GPU-> M = 8192, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.825210 ms, Min = 0.819921 ms, Max = 0.842810 ms
+Running CUBLAS GPU-> M = 8192, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.864670 ms, Min = 0.857115 ms, Max = 0.873089 ms
+Running CUBLAS GPU-> M = 8192, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.903189 ms, Min = 0.895977 ms, Max = 0.930786 ms
+Running CUBLAS GPU-> M = 8192, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.940979 ms, Min = 0.932932 ms, Max = 0.952005 ms
+Running CUBLAS GPU-> M = 8192, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=0.980299 ms, Min = 0.972986 ms, Max = 0.993013 ms
+Running CUBLAS GPU-> M = 8192, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.019619 ms, Min = 1.012087 ms, Max = 1.058817 ms
+Running CUBLAS GPU-> M = 8192, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.056831 ms, Min = 1.049995 ms, Max = 1.080036 ms
+Running CUBLAS GPU-> M = 8192, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.095226 ms, Min = 1.086950 ms, Max = 1.111031 ms
+Running CUBLAS GPU-> M = 8192, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.134968 ms, Min = 1.127005 ms, Max = 1.145840 ms
+Running CUBLAS GPU-> M = 8192, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.175277 ms, Min = 1.166105 ms, Max = 1.191854 ms
+Running CUBLAS GPU-> M = 8192, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.210661 ms, Min = 1.204014 ms, Max = 1.221895 ms
+Running CUBLAS GPU-> M = 8192, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.249919 ms, Min = 1.240969 ms, Max = 1.270056 ms
+Running CUBLAS GPU-> M = 8704, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.054407 ms, Min = 0.052929 ms, Max = 0.073910 ms
+Running CUBLAS GPU-> M = 8704, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.095508 ms, Min = 0.093937 ms, Max = 0.109911 ms
+Running CUBLAS GPU-> M = 8704, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.136309 ms, Min = 0.133991 ms, Max = 0.151157 ms
+Running CUBLAS GPU-> M = 8704, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.177410 ms, Min = 0.175953 ms, Max = 0.192881 ms
+Running CUBLAS GPU-> M = 8704, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.218041 ms, Min = 0.216007 ms, Max = 0.221968 ms
+Running CUBLAS GPU-> M = 8704, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.259347 ms, Min = 0.257015 ms, Max = 0.278950 ms
+Running CUBLAS GPU-> M = 8704, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.300612 ms, Min = 0.298023 ms, Max = 0.359058 ms
+Running CUBLAS GPU-> M = 8704, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.341790 ms, Min = 0.339031 ms, Max = 0.372887 ms
+Running CUBLAS GPU-> M = 8704, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.382309 ms, Min = 0.379801 ms, Max = 0.400066 ms
+Running CUBLAS GPU-> M = 8704, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.422373 ms, Min = 0.419855 ms, Max = 0.437021 ms
+Running CUBLAS GPU-> M = 8704, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.463841 ms, Min = 0.459909 ms, Max = 0.481129 ms
+Running CUBLAS GPU-> M = 8704, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.506711 ms, Min = 0.500917 ms, Max = 0.535011 ms
+Running CUBLAS GPU-> M = 8704, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.545790 ms, Min = 0.542879 ms, Max = 0.558853 ms
+Running CUBLAS GPU-> M = 8704, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.586541 ms, Min = 0.581980 ms, Max = 0.627995 ms
+Running CUBLAS GPU-> M = 8704, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.627599 ms, Min = 0.623941 ms, Max = 0.642776 ms
+Running CUBLAS GPU-> M = 8704, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.668802 ms, Min = 0.664949 ms, Max = 0.705004 ms
+Running CUBLAS GPU-> M = 8704, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.709260 ms, Min = 0.705004 ms, Max = 0.734806 ms
+Running CUBLAS GPU-> M = 8704, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.749671 ms, Min = 0.746012 ms, Max = 0.764847 ms
+Running CUBLAS GPU-> M = 8704, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.793233 ms, Min = 0.787973 ms, Max = 0.821114 ms
+Running CUBLAS GPU-> M = 8704, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.831749 ms, Min = 0.826836 ms, Max = 0.846863 ms
+Running CUBLAS GPU-> M = 8704, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.873005 ms, Min = 0.867844 ms, Max = 0.885963 ms
+Running CUBLAS GPU-> M = 8704, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.917170 ms, Min = 0.909090 ms, Max = 0.958204 ms
+Running CUBLAS GPU-> M = 8704, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=0.954621 ms, Min = 0.948191 ms, Max = 1.003027 ms
+Running CUBLAS GPU-> M = 8704, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=0.997751 ms, Min = 0.993013 ms, Max = 1.035929 ms
+Running CUBLAS GPU-> M = 8704, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.035941 ms, Min = 1.030922 ms, Max = 1.054049 ms
+Running CUBLAS GPU-> M = 8704, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.076462 ms, Min = 1.070976 ms, Max = 1.116991 ms
+Running CUBLAS GPU-> M = 8704, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.118622 ms, Min = 1.112938 ms, Max = 1.147985 ms
+Running CUBLAS GPU-> M = 8704, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.160083 ms, Min = 1.154900 ms, Max = 1.176119 ms
+Running CUBLAS GPU-> M = 8704, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.199496 ms, Min = 1.194954 ms, Max = 1.206160 ms
+Running CUBLAS GPU-> M = 8704, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.243212 ms, Min = 1.238108 ms, Max = 1.281023 ms
+Running CUBLAS GPU-> M = 8704, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.282439 ms, Min = 1.276970 ms, Max = 1.327038 ms
+Running CUBLAS GPU-> M = 8704, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.322813 ms, Min = 1.315117 ms, Max = 1.367092 ms
+Running CUBLAS GPU-> M = 9216, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.056400 ms, Min = 0.053883 ms, Max = 0.102997 ms
+Running CUBLAS GPU-> M = 9216, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.103941 ms, Min = 0.100851 ms, Max = 0.159025 ms
+Running CUBLAS GPU-> M = 9216, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.143549 ms, Min = 0.141859 ms, Max = 0.160933 ms
+Running CUBLAS GPU-> M = 9216, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.185652 ms, Min = 0.183821 ms, Max = 0.189066 ms
+Running CUBLAS GPU-> M = 9216, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.229001 ms, Min = 0.225782 ms, Max = 0.247955 ms
+Running CUBLAS GPU-> M = 9216, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.272348 ms, Min = 0.269175 ms, Max = 0.287056 ms
+Running CUBLAS GPU-> M = 9216, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.314810 ms, Min = 0.311852 ms, Max = 0.329971 ms
+Running CUBLAS GPU-> M = 9216, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.358062 ms, Min = 0.355005 ms, Max = 0.373840 ms
+Running CUBLAS GPU-> M = 9216, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.401130 ms, Min = 0.397921 ms, Max = 0.417948 ms
+Running CUBLAS GPU-> M = 9216, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.443933 ms, Min = 0.440836 ms, Max = 0.458956 ms
+Running CUBLAS GPU-> M = 9216, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.489585 ms, Min = 0.484228 ms, Max = 0.504017 ms
+Running CUBLAS GPU-> M = 9216, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.531542 ms, Min = 0.527143 ms, Max = 0.538111 ms
+Running CUBLAS GPU-> M = 9216, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.573273 ms, Min = 0.568867 ms, Max = 0.590086 ms
+Running CUBLAS GPU-> M = 9216, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.617652 ms, Min = 0.612974 ms, Max = 0.633955 ms
+Running CUBLAS GPU-> M = 9216, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.659878 ms, Min = 0.655890 ms, Max = 0.674963 ms
+Running CUBLAS GPU-> M = 9216, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.704119 ms, Min = 0.698805 ms, Max = 0.720978 ms
+Running CUBLAS GPU-> M = 9216, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.747936 ms, Min = 0.741959 ms, Max = 0.763893 ms
+Running CUBLAS GPU-> M = 9216, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.791500 ms, Min = 0.783920 ms, Max = 0.807047 ms
+Running CUBLAS GPU-> M = 9216, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.834200 ms, Min = 0.829935 ms, Max = 0.854015 ms
+Running CUBLAS GPU-> M = 9216, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.878503 ms, Min = 0.870943 ms, Max = 0.890970 ms
+Running CUBLAS GPU-> M = 9216, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.922303 ms, Min = 0.912905 ms, Max = 0.949144 ms
+Running CUBLAS GPU-> M = 9216, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=0.966141 ms, Min = 0.958920 ms, Max = 0.984907 ms
+Running CUBLAS GPU-> M = 9216, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.007049 ms, Min = 1.000881 ms, Max = 1.024008 ms
+Running CUBLAS GPU-> M = 9216, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.051619 ms, Min = 1.044989 ms, Max = 1.067877 ms
+Running CUBLAS GPU-> M = 9216, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.094141 ms, Min = 1.085997 ms, Max = 1.110077 ms
+Running CUBLAS GPU-> M = 9216, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.140273 ms, Min = 1.132011 ms, Max = 1.152039 ms
+Running CUBLAS GPU-> M = 9216, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.180542 ms, Min = 1.173019 ms, Max = 1.209021 ms
+Running CUBLAS GPU-> M = 9216, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.224768 ms, Min = 1.219034 ms, Max = 1.243114 ms
+Running CUBLAS GPU-> M = 9216, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.267979 ms, Min = 1.260996 ms, Max = 1.290083 ms
+Running CUBLAS GPU-> M = 9216, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.312282 ms, Min = 1.302004 ms, Max = 1.331091 ms
+Running CUBLAS GPU-> M = 9216, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.360071 ms, Min = 1.349926 ms, Max = 1.374006 ms
+Running CUBLAS GPU-> M = 9216, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.402528 ms, Min = 1.389980 ms, Max = 1.430988 ms
+Running CUBLAS GPU-> M = 9728, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.057991 ms, Min = 0.056028 ms, Max = 0.077009 ms
+Running CUBLAS GPU-> M = 9728, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.103731 ms, Min = 0.101805 ms, Max = 0.124931 ms
+Running CUBLAS GPU-> M = 9728, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.149813 ms, Min = 0.148058 ms, Max = 0.168085 ms
+Running CUBLAS GPU-> M = 9728, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.194948 ms, Min = 0.191927 ms, Max = 0.211000 ms
+Running CUBLAS GPU-> M = 9728, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.240650 ms, Min = 0.237942 ms, Max = 0.257969 ms
+Running CUBLAS GPU-> M = 9728, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.285661 ms, Min = 0.283003 ms, Max = 0.288963 ms
+Running CUBLAS GPU-> M = 9728, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.330970 ms, Min = 0.327826 ms, Max = 0.350952 ms
+Running CUBLAS GPU-> M = 9728, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.376747 ms, Min = 0.373125 ms, Max = 0.395060 ms
+Running CUBLAS GPU-> M = 9728, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.422449 ms, Min = 0.419140 ms, Max = 0.437021 ms
+Running CUBLAS GPU-> M = 9728, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.471013 ms, Min = 0.465870 ms, Max = 0.482082 ms
+Running CUBLAS GPU-> M = 9728, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.513682 ms, Min = 0.509977 ms, Max = 0.530005 ms
+Running CUBLAS GPU-> M = 9728, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.559947 ms, Min = 0.553846 ms, Max = 0.590801 ms
+Running CUBLAS GPU-> M = 9728, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.605052 ms, Min = 0.600815 ms, Max = 0.639200 ms
+Running CUBLAS GPU-> M = 9728, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.651839 ms, Min = 0.648022 ms, Max = 0.669003 ms
+Running CUBLAS GPU-> M = 9728, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.696571 ms, Min = 0.691891 ms, Max = 0.720024 ms
+Running CUBLAS GPU-> M = 9728, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.743160 ms, Min = 0.736952 ms, Max = 0.764132 ms
+Running CUBLAS GPU-> M = 9728, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.789399 ms, Min = 0.784874 ms, Max = 0.805855 ms
+Running CUBLAS GPU-> M = 9728, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.832748 ms, Min = 0.828028 ms, Max = 0.849009 ms
+Running CUBLAS GPU-> M = 9728, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.879650 ms, Min = 0.872850 ms, Max = 0.895023 ms
+Running CUBLAS GPU-> M = 9728, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.926836 ms, Min = 0.921011 ms, Max = 0.957012 ms
+Running CUBLAS GPU-> M = 9728, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=0.971901 ms, Min = 0.962973 ms, Max = 0.996828 ms
+Running CUBLAS GPU-> M = 9728, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.016130 ms, Min = 1.010895 ms, Max = 1.034975 ms
+Running CUBLAS GPU-> M = 9728, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.062832 ms, Min = 1.057148 ms, Max = 1.083136 ms
+Running CUBLAS GPU-> M = 9728, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.109080 ms, Min = 1.102924 ms, Max = 1.128912 ms
+Running CUBLAS GPU-> M = 9728, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.153500 ms, Min = 1.146078 ms, Max = 1.173019 ms
+Running CUBLAS GPU-> M = 9728, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.200590 ms, Min = 1.194954 ms, Max = 1.214981 ms
+Running CUBLAS GPU-> M = 9728, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.243973 ms, Min = 1.237154 ms, Max = 1.258135 ms
+Running CUBLAS GPU-> M = 9728, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.290298 ms, Min = 1.282930 ms, Max = 1.307964 ms
+Running CUBLAS GPU-> M = 9728, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.340868 ms, Min = 1.329899 ms, Max = 1.360893 ms
+Running CUBLAS GPU-> M = 9728, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.385789 ms, Min = 1.375914 ms, Max = 1.400948 ms
+Running CUBLAS GPU-> M = 9728, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.430020 ms, Min = 1.422882 ms, Max = 1.439095 ms
+Running CUBLAS GPU-> M = 9728, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.474090 ms, Min = 1.464844 ms, Max = 1.492023 ms
+Running CUBLAS GPU-> M = 10240, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.061302 ms, Min = 0.059843 ms, Max = 0.078917 ms
+Running CUBLAS GPU-> M = 10240, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.108969 ms, Min = 0.107765 ms, Max = 0.113964 ms
+Running CUBLAS GPU-> M = 10240, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.156894 ms, Min = 0.154972 ms, Max = 0.165939 ms
+Running CUBLAS GPU-> M = 10240, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.204592 ms, Min = 0.202894 ms, Max = 0.210047 ms
+Running CUBLAS GPU-> M = 10240, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.253470 ms, Min = 0.249863 ms, Max = 0.290871 ms
+Running CUBLAS GPU-> M = 10240, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.299921 ms, Min = 0.297785 ms, Max = 0.318050 ms
+Running CUBLAS GPU-> M = 10240, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.348179 ms, Min = 0.345945 ms, Max = 0.364065 ms
+Running CUBLAS GPU-> M = 10240, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.395882 ms, Min = 0.393152 ms, Max = 0.411034 ms
+Running CUBLAS GPU-> M = 10240, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.443790 ms, Min = 0.440836 ms, Max = 0.458002 ms
+Running CUBLAS GPU-> M = 10240, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.491939 ms, Min = 0.488997 ms, Max = 0.508070 ms
+Running CUBLAS GPU-> M = 10240, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.539477 ms, Min = 0.536919 ms, Max = 0.555992 ms
+Running CUBLAS GPU-> M = 10240, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.586972 ms, Min = 0.583887 ms, Max = 0.602007 ms
+Running CUBLAS GPU-> M = 10240, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.635059 ms, Min = 0.631809 ms, Max = 0.651121 ms
+Running CUBLAS GPU-> M = 10240, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.683401 ms, Min = 0.679970 ms, Max = 0.699043 ms
+Running CUBLAS GPU-> M = 10240, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.732009 ms, Min = 0.728130 ms, Max = 0.750065 ms
+Running CUBLAS GPU-> M = 10240, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.779202 ms, Min = 0.774860 ms, Max = 0.793934 ms
+Running CUBLAS GPU-> M = 10240, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.826883 ms, Min = 0.822783 ms, Max = 0.844002 ms
+Running CUBLAS GPU-> M = 10240, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.875309 ms, Min = 0.870943 ms, Max = 0.897169 ms
+Running CUBLAS GPU-> M = 10240, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.923245 ms, Min = 0.918865 ms, Max = 0.935078 ms
+Running CUBLAS GPU-> M = 10240, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=0.971618 ms, Min = 0.967026 ms, Max = 0.989914 ms
+Running CUBLAS GPU-> M = 10240, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.019027 ms, Min = 1.015186 ms, Max = 1.031876 ms
+Running CUBLAS GPU-> M = 10240, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.066830 ms, Min = 1.062870 ms, Max = 1.082897 ms
+Running CUBLAS GPU-> M = 10240, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.115968 ms, Min = 1.109838 ms, Max = 1.132011 ms
+Running CUBLAS GPU-> M = 10240, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.162579 ms, Min = 1.157045 ms, Max = 1.178980 ms
+Running CUBLAS GPU-> M = 10240, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.211100 ms, Min = 1.205921 ms, Max = 1.250982 ms
+Running CUBLAS GPU-> M = 10240, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.257141 ms, Min = 1.252890 ms, Max = 1.274109 ms
+Running CUBLAS GPU-> M = 10240, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.307101 ms, Min = 1.300097 ms, Max = 1.322031 ms
+Running CUBLAS GPU-> M = 10240, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.357040 ms, Min = 1.351833 ms, Max = 1.373053 ms
+Running CUBLAS GPU-> M = 10240, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.406190 ms, Min = 1.399994 ms, Max = 1.420975 ms
+Running CUBLAS GPU-> M = 10240, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.451330 ms, Min = 1.446009 ms, Max = 1.466990 ms
+Running CUBLAS GPU-> M = 10240, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.500521 ms, Min = 1.493216 ms, Max = 1.517057 ms
+Running CUBLAS GPU-> M = 10240, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.547251 ms, Min = 1.540899 ms, Max = 1.569033 ms
+Running CUBLAS GPU-> M = 10752, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.063710 ms, Min = 0.061989 ms, Max = 0.082016 ms
+Running CUBLAS GPU-> M = 10752, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.114751 ms, Min = 0.113010 ms, Max = 0.133991 ms
+Running CUBLAS GPU-> M = 10752, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.166368 ms, Min = 0.164032 ms, Max = 0.185013 ms
+Running CUBLAS GPU-> M = 10752, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.215449 ms, Min = 0.212908 ms, Max = 0.234842 ms
+Running CUBLAS GPU-> M = 10752, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.267069 ms, Min = 0.263929 ms, Max = 0.280857 ms
+Running CUBLAS GPU-> M = 10752, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.317562 ms, Min = 0.314951 ms, Max = 0.332117 ms
+Running CUBLAS GPU-> M = 10752, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.368383 ms, Min = 0.365973 ms, Max = 0.386953 ms
+Running CUBLAS GPU-> M = 10752, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.418792 ms, Min = 0.415087 ms, Max = 0.435114 ms
+Running CUBLAS GPU-> M = 10752, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.469861 ms, Min = 0.466824 ms, Max = 0.487089 ms
+Running CUBLAS GPU-> M = 10752, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.520933 ms, Min = 0.517845 ms, Max = 0.537872 ms
+Running CUBLAS GPU-> M = 10752, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.571492 ms, Min = 0.568151 ms, Max = 0.587940 ms
+Running CUBLAS GPU-> M = 10752, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.622067 ms, Min = 0.618935 ms, Max = 0.638962 ms
+Running CUBLAS GPU-> M = 10752, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.673518 ms, Min = 0.669956 ms, Max = 0.701904 ms
+Running CUBLAS GPU-> M = 10752, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.723865 ms, Min = 0.720978 ms, Max = 0.731945 ms
+Running CUBLAS GPU-> M = 10752, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.774789 ms, Min = 0.769854 ms, Max = 0.781059 ms
+Running CUBLAS GPU-> M = 10752, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.824671 ms, Min = 0.820875 ms, Max = 0.830173 ms
+Running CUBLAS GPU-> M = 10752, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.875959 ms, Min = 0.870943 ms, Max = 0.893116 ms
+Running CUBLAS GPU-> M = 10752, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.927081 ms, Min = 0.922918 ms, Max = 0.944138 ms
+Running CUBLAS GPU-> M = 10752, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=0.978725 ms, Min = 0.973940 ms, Max = 0.984907 ms
+Running CUBLAS GPU-> M = 10752, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.029766 ms, Min = 1.024961 ms, Max = 1.050949 ms
+Running CUBLAS GPU-> M = 10752, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.079376 ms, Min = 1.075029 ms, Max = 1.102924 ms
+Running CUBLAS GPU-> M = 10752, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.131973 ms, Min = 1.127005 ms, Max = 1.146078 ms
+Running CUBLAS GPU-> M = 10752, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.182182 ms, Min = 1.176834 ms, Max = 1.197100 ms
+Running CUBLAS GPU-> M = 10752, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.232197 ms, Min = 1.224995 ms, Max = 1.271009 ms
+Running CUBLAS GPU-> M = 10752, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.282728 ms, Min = 1.275778 ms, Max = 1.303196 ms
+Running CUBLAS GPU-> M = 10752, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.334562 ms, Min = 1.329899 ms, Max = 1.368999 ms
+Running CUBLAS GPU-> M = 10752, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.386533 ms, Min = 1.378775 ms, Max = 1.427174 ms
+Running CUBLAS GPU-> M = 10752, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.442974 ms, Min = 1.435995 ms, Max = 1.471996 ms
+Running CUBLAS GPU-> M = 10752, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.489420 ms, Min = 1.483917 ms, Max = 1.497984 ms
+Running CUBLAS GPU-> M = 10752, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.538060 ms, Min = 1.531839 ms, Max = 1.551151 ms
+Running CUBLAS GPU-> M = 10752, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.589792 ms, Min = 1.583099 ms, Max = 1.600027 ms
+Running CUBLAS GPU-> M = 10752, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.640472 ms, Min = 1.633883 ms, Max = 1.656055 ms
+Running CUBLAS GPU-> M = 11264, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.066233 ms, Min = 0.063896 ms, Max = 0.092983 ms
+Running CUBLAS GPU-> M = 11264, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.118914 ms, Min = 0.117064 ms, Max = 0.136137 ms
+Running CUBLAS GPU-> M = 11264, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.177779 ms, Min = 0.169992 ms, Max = 0.698805 ms
+Running CUBLAS GPU-> M = 11264, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.224442 ms, Min = 0.221968 ms, Max = 0.242949 ms
+Running CUBLAS GPU-> M = 11264, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.278952 ms, Min = 0.276089 ms, Max = 0.294924 ms
+Running CUBLAS GPU-> M = 11264, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.330303 ms, Min = 0.327826 ms, Max = 0.344992 ms
+Running CUBLAS GPU-> M = 11264, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.385580 ms, Min = 0.381947 ms, Max = 0.416040 ms
+Running CUBLAS GPU-> M = 11264, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.441451 ms, Min = 0.437975 ms, Max = 0.456810 ms
+Running CUBLAS GPU-> M = 11264, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.491261 ms, Min = 0.488997 ms, Max = 0.506878 ms
+Running CUBLAS GPU-> M = 11264, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.546577 ms, Min = 0.543118 ms, Max = 0.561953 ms
+Running CUBLAS GPU-> M = 11264, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.600002 ms, Min = 0.597000 ms, Max = 0.614882 ms
+Running CUBLAS GPU-> M = 11264, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.658703 ms, Min = 0.654936 ms, Max = 0.676155 ms
+Running CUBLAS GPU-> M = 11264, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.707483 ms, Min = 0.703812 ms, Max = 0.724077 ms
+Running CUBLAS GPU-> M = 11264, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.763471 ms, Min = 0.758886 ms, Max = 0.779867 ms
+Running CUBLAS GPU-> M = 11264, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.812509 ms, Min = 0.808954 ms, Max = 0.833988 ms
+Running CUBLAS GPU-> M = 11264, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.873013 ms, Min = 0.868797 ms, Max = 0.900030 ms
+Running CUBLAS GPU-> M = 11264, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.919831 ms, Min = 0.916004 ms, Max = 0.941992 ms
+Running CUBLAS GPU-> M = 11264, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=0.977738 ms, Min = 0.972986 ms, Max = 0.993967 ms
+Running CUBLAS GPU-> M = 11264, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.032162 ms, Min = 1.026869 ms, Max = 1.048088 ms
+Running CUBLAS GPU-> M = 11264, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.086540 ms, Min = 1.080990 ms, Max = 1.102924 ms
+Running CUBLAS GPU-> M = 11264, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.132698 ms, Min = 1.127958 ms, Max = 1.148939 ms
+Running CUBLAS GPU-> M = 11264, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.195080 ms, Min = 1.190901 ms, Max = 1.210928 ms
+Running CUBLAS GPU-> M = 11264, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.261997 ms, Min = 1.257896 ms, Max = 1.281977 ms
+Running CUBLAS GPU-> M = 11264, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.304579 ms, Min = 1.299858 ms, Max = 1.317978 ms
+Running CUBLAS GPU-> M = 11264, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.349361 ms, Min = 1.343966 ms, Max = 1.358032 ms
+Running CUBLAS GPU-> M = 11264, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.410069 ms, Min = 1.405001 ms, Max = 1.424074 ms
+Running CUBLAS GPU-> M = 11264, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.470938 ms, Min = 1.463890 ms, Max = 1.488924 ms
+Running CUBLAS GPU-> M = 11264, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.527145 ms, Min = 1.519918 ms, Max = 1.549006 ms
+Running CUBLAS GPU-> M = 11264, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.570723 ms, Min = 1.565933 ms, Max = 1.590014 ms
+Running CUBLAS GPU-> M = 11264, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.622629 ms, Min = 1.618147 ms, Max = 1.636028 ms
+Running CUBLAS GPU-> M = 11264, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.692221 ms, Min = 1.685143 ms, Max = 1.703978 ms
+Running CUBLAS GPU-> M = 11264, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.724191 ms, Min = 1.717091 ms, Max = 1.737118 ms
+Running CUBLAS GPU-> M = 11776, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.071139 ms, Min = 0.069857 ms, Max = 0.109911 ms
+Running CUBLAS GPU-> M = 11776, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.124662 ms, Min = 0.122786 ms, Max = 0.153065 ms
+Running CUBLAS GPU-> M = 11776, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.178080 ms, Min = 0.175953 ms, Max = 0.196934 ms
+Running CUBLAS GPU-> M = 11776, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.234740 ms, Min = 0.231981 ms, Max = 0.274897 ms
+Running CUBLAS GPU-> M = 11776, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.288441 ms, Min = 0.286102 ms, Max = 0.300884 ms
+Running CUBLAS GPU-> M = 11776, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.343850 ms, Min = 0.340939 ms, Max = 0.363111 ms
+Running CUBLAS GPU-> M = 11776, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.398581 ms, Min = 0.396013 ms, Max = 0.414848 ms
+Running CUBLAS GPU-> M = 11776, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.453749 ms, Min = 0.451803 ms, Max = 0.457048 ms
+Running CUBLAS GPU-> M = 11776, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.509059 ms, Min = 0.505924 ms, Max = 0.524044 ms
+Running CUBLAS GPU-> M = 11776, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.563478 ms, Min = 0.560999 ms, Max = 0.580072 ms
+Running CUBLAS GPU-> M = 11776, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.619900 ms, Min = 0.617027 ms, Max = 0.637054 ms
+Running CUBLAS GPU-> M = 11776, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.674329 ms, Min = 0.671864 ms, Max = 0.679016 ms
+Running CUBLAS GPU-> M = 11776, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.729339 ms, Min = 0.725985 ms, Max = 0.744820 ms
+Running CUBLAS GPU-> M = 11776, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.784471 ms, Min = 0.781059 ms, Max = 0.799179 ms
+Running CUBLAS GPU-> M = 11776, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.841687 ms, Min = 0.838995 ms, Max = 0.874043 ms
+Running CUBLAS GPU-> M = 11776, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.898242 ms, Min = 0.895023 ms, Max = 0.916004 ms
+Running CUBLAS GPU-> M = 11776, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.952702 ms, Min = 0.948906 ms, Max = 0.968933 ms
+Running CUBLAS GPU-> M = 11776, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.007700 ms, Min = 1.003027 ms, Max = 1.046896 ms
+Running CUBLAS GPU-> M = 11776, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.061182 ms, Min = 1.056910 ms, Max = 1.080036 ms
+Running CUBLAS GPU-> M = 11776, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.116838 ms, Min = 1.111984 ms, Max = 1.144886 ms
+Running CUBLAS GPU-> M = 11776, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.174753 ms, Min = 1.170158 ms, Max = 1.194000 ms
+Running CUBLAS GPU-> M = 11776, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.226914 ms, Min = 1.222134 ms, Max = 1.249075 ms
+Running CUBLAS GPU-> M = 11776, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.283472 ms, Min = 1.278877 ms, Max = 1.312017 ms
+Running CUBLAS GPU-> M = 11776, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.339571 ms, Min = 1.333952 ms, Max = 1.379967 ms
+Running CUBLAS GPU-> M = 11776, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.393077 ms, Min = 1.388073 ms, Max = 1.411915 ms
+Running CUBLAS GPU-> M = 11776, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.447692 ms, Min = 1.441956 ms, Max = 1.463890 ms
+Running CUBLAS GPU-> M = 11776, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.505458 ms, Min = 1.499891 ms, Max = 1.525879 ms
+Running CUBLAS GPU-> M = 11776, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.559560 ms, Min = 1.553059 ms, Max = 1.571178 ms
+Running CUBLAS GPU-> M = 11776, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.614859 ms, Min = 1.610994 ms, Max = 1.633167 ms
+Running CUBLAS GPU-> M = 11776, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.670599 ms, Min = 1.665115 ms, Max = 1.701117 ms
+Running CUBLAS GPU-> M = 11776, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.725817 ms, Min = 1.720905 ms, Max = 1.766920 ms
+Running CUBLAS GPU-> M = 11776, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.783092 ms, Min = 1.777887 ms, Max = 1.800060 ms
+Running CUBLAS GPU-> M = 12288, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.069773 ms, Min = 0.068188 ms, Max = 0.090122 ms
+Running CUBLAS GPU-> M = 12288, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.128539 ms, Min = 0.126839 ms, Max = 0.147820 ms
+Running CUBLAS GPU-> M = 12288, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.184922 ms, Min = 0.182867 ms, Max = 0.200033 ms
+Running CUBLAS GPU-> M = 12288, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.242829 ms, Min = 0.239849 ms, Max = 0.258923 ms
+Running CUBLAS GPU-> M = 12288, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.300422 ms, Min = 0.297785 ms, Max = 0.317097 ms
+Running CUBLAS GPU-> M = 12288, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.359142 ms, Min = 0.355959 ms, Max = 0.387192 ms
+Running CUBLAS GPU-> M = 12288, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.415168 ms, Min = 0.412941 ms, Max = 0.451088 ms
+Running CUBLAS GPU-> M = 12288, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.472512 ms, Min = 0.469923 ms, Max = 0.476122 ms
+Running CUBLAS GPU-> M = 12288, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.530350 ms, Min = 0.527859 ms, Max = 0.547886 ms
+Running CUBLAS GPU-> M = 12288, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.588102 ms, Min = 0.585079 ms, Max = 0.603914 ms
+Running CUBLAS GPU-> M = 12288, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.644414 ms, Min = 0.641823 ms, Max = 0.647068 ms
+Running CUBLAS GPU-> M = 12288, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.702202 ms, Min = 0.698805 ms, Max = 0.718117 ms
+Running CUBLAS GPU-> M = 12288, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.759881 ms, Min = 0.756979 ms, Max = 0.776052 ms
+Running CUBLAS GPU-> M = 12288, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.817940 ms, Min = 0.814915 ms, Max = 0.853062 ms
+Running CUBLAS GPU-> M = 12288, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.875185 ms, Min = 0.872135 ms, Max = 0.896931 ms
+Running CUBLAS GPU-> M = 12288, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.935450 ms, Min = 0.929832 ms, Max = 0.949144 ms
+Running CUBLAS GPU-> M = 12288, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=0.990562 ms, Min = 0.988007 ms, Max = 1.008034 ms
+Running CUBLAS GPU-> M = 12288, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.048062 ms, Min = 1.044989 ms, Max = 1.065016 ms
+Running CUBLAS GPU-> M = 12288, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.105461 ms, Min = 1.101971 ms, Max = 1.125097 ms
+Running CUBLAS GPU-> M = 12288, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.163974 ms, Min = 1.160145 ms, Max = 1.194954 ms
+Running CUBLAS GPU-> M = 12288, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.220291 ms, Min = 1.215935 ms, Max = 1.234055 ms
+Running CUBLAS GPU-> M = 12288, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.279595 ms, Min = 1.275063 ms, Max = 1.296997 ms
+Running CUBLAS GPU-> M = 12288, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.337152 ms, Min = 1.332045 ms, Max = 1.343966 ms
+Running CUBLAS GPU-> M = 12288, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.394100 ms, Min = 1.389980 ms, Max = 1.407862 ms
+Running CUBLAS GPU-> M = 12288, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.452127 ms, Min = 1.447916 ms, Max = 1.470089 ms
+Running CUBLAS GPU-> M = 12288, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.511121 ms, Min = 1.505852 ms, Max = 1.538038 ms
+Running CUBLAS GPU-> M = 12288, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.566513 ms, Min = 1.560926 ms, Max = 1.587868 ms
+Running CUBLAS GPU-> M = 12288, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.626494 ms, Min = 1.619816 ms, Max = 1.669884 ms
+Running CUBLAS GPU-> M = 12288, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.683090 ms, Min = 1.677990 ms, Max = 1.703024 ms
+Running CUBLAS GPU-> M = 12288, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.739590 ms, Min = 1.733780 ms, Max = 1.776934 ms
+Running CUBLAS GPU-> M = 12288, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.796899 ms, Min = 1.791954 ms, Max = 1.807928 ms
+Running CUBLAS GPU-> M = 12288, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.856012 ms, Min = 1.848936 ms, Max = 1.872063 ms
+Running CUBLAS GPU-> M = 12800, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.072351 ms, Min = 0.070810 ms, Max = 0.092983 ms
+Running CUBLAS GPU-> M = 12800, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.133841 ms, Min = 0.131845 ms, Max = 0.152111 ms
+Running CUBLAS GPU-> M = 12800, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.192614 ms, Min = 0.190973 ms, Max = 0.208139 ms
+Running CUBLAS GPU-> M = 12800, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.252402 ms, Min = 0.250816 ms, Max = 0.267029 ms
+Running CUBLAS GPU-> M = 12800, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.313170 ms, Min = 0.308990 ms, Max = 0.356197 ms
+Running CUBLAS GPU-> M = 12800, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.372579 ms, Min = 0.368834 ms, Max = 0.388861 ms
+Running CUBLAS GPU-> M = 12800, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.432057 ms, Min = 0.429153 ms, Max = 0.451803 ms
+Running CUBLAS GPU-> M = 12800, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.491767 ms, Min = 0.488043 ms, Max = 0.506878 ms
+Running CUBLAS GPU-> M = 12800, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.551569 ms, Min = 0.547886 ms, Max = 0.565052 ms
+Running CUBLAS GPU-> M = 12800, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.610566 ms, Min = 0.607967 ms, Max = 0.629902 ms
+Running CUBLAS GPU-> M = 12800, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.671673 ms, Min = 0.668049 ms, Max = 0.694036 ms
+Running CUBLAS GPU-> M = 12800, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.731361 ms, Min = 0.728846 ms, Max = 0.746965 ms
+Running CUBLAS GPU-> M = 12800, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.790038 ms, Min = 0.787020 ms, Max = 0.808001 ms
+Running CUBLAS GPU-> M = 12800, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.850461 ms, Min = 0.847101 ms, Max = 0.865936 ms
+Running CUBLAS GPU-> M = 12800, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.911591 ms, Min = 0.908136 ms, Max = 0.923872 ms
+Running CUBLAS GPU-> M = 12800, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=0.971043 ms, Min = 0.967979 ms, Max = 0.986814 ms
+Running CUBLAS GPU-> M = 12800, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.032209 ms, Min = 1.026869 ms, Max = 1.069069 ms
+Running CUBLAS GPU-> M = 12800, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.090422 ms, Min = 1.085997 ms, Max = 1.106024 ms
+Running CUBLAS GPU-> M = 12800, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.150632 ms, Min = 1.147032 ms, Max = 1.157999 ms
+Running CUBLAS GPU-> M = 12800, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.211641 ms, Min = 1.205206 ms, Max = 1.238108 ms
+Running CUBLAS GPU-> M = 12800, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.270187 ms, Min = 1.266003 ms, Max = 1.287937 ms
+Running CUBLAS GPU-> M = 12800, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.333029 ms, Min = 1.328945 ms, Max = 1.356125 ms
+Running CUBLAS GPU-> M = 12800, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.393378 ms, Min = 1.386881 ms, Max = 1.409054 ms
+Running CUBLAS GPU-> M = 12800, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.452010 ms, Min = 1.447916 ms, Max = 1.472950 ms
+Running CUBLAS GPU-> M = 12800, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.513760 ms, Min = 1.507998 ms, Max = 1.529932 ms
+Running CUBLAS GPU-> M = 12800, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.572759 ms, Min = 1.564980 ms, Max = 1.595974 ms
+Running CUBLAS GPU-> M = 12800, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.633859 ms, Min = 1.629829 ms, Max = 1.649857 ms
+Running CUBLAS GPU-> M = 12800, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.693330 ms, Min = 1.688004 ms, Max = 1.704931 ms
+Running CUBLAS GPU-> M = 12800, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.756063 ms, Min = 1.750946 ms, Max = 1.775980 ms
+Running CUBLAS GPU-> M = 12800, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.813078 ms, Min = 1.806974 ms, Max = 1.831055 ms
+Running CUBLAS GPU-> M = 12800, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.870482 ms, Min = 1.864910 ms, Max = 1.883030 ms
+Running CUBLAS GPU-> M = 12800, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=1.932483 ms, Min = 1.925945 ms, Max = 1.945972 ms
+Running CUBLAS GPU-> M = 13312, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.074971 ms, Min = 0.073910 ms, Max = 0.077009 ms
+Running CUBLAS GPU-> M = 13312, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.139620 ms, Min = 0.137806 ms, Max = 0.158072 ms
+Running CUBLAS GPU-> M = 13312, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.202291 ms, Min = 0.199795 ms, Max = 0.222921 ms
+Running CUBLAS GPU-> M = 13312, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.264399 ms, Min = 0.262022 ms, Max = 0.284910 ms
+Running CUBLAS GPU-> M = 13312, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.328150 ms, Min = 0.325918 ms, Max = 0.343084 ms
+Running CUBLAS GPU-> M = 13312, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.390291 ms, Min = 0.387907 ms, Max = 0.406027 ms
+Running CUBLAS GPU-> M = 13312, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.454049 ms, Min = 0.450850 ms, Max = 0.484943 ms
+Running CUBLAS GPU-> M = 13312, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.516322 ms, Min = 0.512838 ms, Max = 0.530958 ms
+Running CUBLAS GPU-> M = 13312, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.579662 ms, Min = 0.576019 ms, Max = 0.603914 ms
+Running CUBLAS GPU-> M = 13312, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.642216 ms, Min = 0.638962 ms, Max = 0.659943 ms
+Running CUBLAS GPU-> M = 13312, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.705292 ms, Min = 0.700951 ms, Max = 0.726938 ms
+Running CUBLAS GPU-> M = 13312, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.768390 ms, Min = 0.765085 ms, Max = 0.785828 ms
+Running CUBLAS GPU-> M = 13312, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.832059 ms, Min = 0.828028 ms, Max = 0.851154 ms
+Running CUBLAS GPU-> M = 13312, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.895388 ms, Min = 0.891924 ms, Max = 0.929117 ms
+Running CUBLAS GPU-> M = 13312, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.956800 ms, Min = 0.952959 ms, Max = 0.962973 ms
+Running CUBLAS GPU-> M = 13312, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=1.019690 ms, Min = 1.016140 ms, Max = 1.025915 ms
+Running CUBLAS GPU-> M = 13312, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.085141 ms, Min = 1.079798 ms, Max = 1.099110 ms
+Running CUBLAS GPU-> M = 13312, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.147888 ms, Min = 1.143932 ms, Max = 1.167059 ms
+Running CUBLAS GPU-> M = 13312, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.209850 ms, Min = 1.205921 ms, Max = 1.224995 ms
+Running CUBLAS GPU-> M = 13312, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.272681 ms, Min = 1.267910 ms, Max = 1.310110 ms
+Running CUBLAS GPU-> M = 13312, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.336801 ms, Min = 1.332045 ms, Max = 1.356125 ms
+Running CUBLAS GPU-> M = 13312, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.400723 ms, Min = 1.394987 ms, Max = 1.414061 ms
+Running CUBLAS GPU-> M = 13312, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.462901 ms, Min = 1.457930 ms, Max = 1.481056 ms
+Running CUBLAS GPU-> M = 13312, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.528752 ms, Min = 1.523018 ms, Max = 1.545191 ms
+Running CUBLAS GPU-> M = 13312, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.591022 ms, Min = 1.585007 ms, Max = 1.610041 ms
+Running CUBLAS GPU-> M = 13312, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.654229 ms, Min = 1.647949 ms, Max = 1.693010 ms
+Running CUBLAS GPU-> M = 13312, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.714861 ms, Min = 1.709938 ms, Max = 1.731873 ms
+Running CUBLAS GPU-> M = 13312, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.777983 ms, Min = 1.772881 ms, Max = 1.785040 ms
+Running CUBLAS GPU-> M = 13312, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.841557 ms, Min = 1.836061 ms, Max = 1.864195 ms
+Running CUBLAS GPU-> M = 13312, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.904571 ms, Min = 1.897097 ms, Max = 1.919031 ms
+Running CUBLAS GPU-> M = 13312, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=1.967621 ms, Min = 1.961946 ms, Max = 1.978159 ms
+Running CUBLAS GPU-> M = 13312, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=2.031069 ms, Min = 2.023935 ms, Max = 2.053022 ms
+Running CUBLAS GPU-> M = 13824, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.077870 ms, Min = 0.075817 ms, Max = 0.095844 ms
+Running CUBLAS GPU-> M = 13824, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.143769 ms, Min = 0.141859 ms, Max = 0.159979 ms
+Running CUBLAS GPU-> M = 13824, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.208671 ms, Min = 0.205994 ms, Max = 0.227928 ms
+Running CUBLAS GPU-> M = 13824, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.273468 ms, Min = 0.271797 ms, Max = 0.276089 ms
+Running CUBLAS GPU-> M = 13824, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.338383 ms, Min = 0.335932 ms, Max = 0.360966 ms
+Running CUBLAS GPU-> M = 13824, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.406611 ms, Min = 0.403881 ms, Max = 0.434875 ms
+Running CUBLAS GPU-> M = 13824, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.467227 ms, Min = 0.464916 ms, Max = 0.482082 ms
+Running CUBLAS GPU-> M = 13824, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.534589 ms, Min = 0.530958 ms, Max = 0.550985 ms
+Running CUBLAS GPU-> M = 13824, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.597198 ms, Min = 0.594854 ms, Max = 0.612020 ms
+Running CUBLAS GPU-> M = 13824, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.662768 ms, Min = 0.659943 ms, Max = 0.680923 ms
+Running CUBLAS GPU-> M = 13824, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.731504 ms, Min = 0.728130 ms, Max = 0.747919 ms
+Running CUBLAS GPU-> M = 13824, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.793791 ms, Min = 0.790834 ms, Max = 0.809908 ms
+Running CUBLAS GPU-> M = 13824, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.860472 ms, Min = 0.856876 ms, Max = 0.887871 ms
+Running CUBLAS GPU-> M = 13824, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.921152 ms, Min = 0.917912 ms, Max = 0.950098 ms
+Running CUBLAS GPU-> M = 13824, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=0.993252 ms, Min = 0.989914 ms, Max = 1.006842 ms
+Running CUBLAS GPU-> M = 13824, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=1.054280 ms, Min = 1.050234 ms, Max = 1.069069 ms
+Running CUBLAS GPU-> M = 13824, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.117659 ms, Min = 1.113892 ms, Max = 1.135111 ms
+Running CUBLAS GPU-> M = 13824, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.183310 ms, Min = 1.179934 ms, Max = 1.199007 ms
+Running CUBLAS GPU-> M = 13824, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.249361 ms, Min = 1.245022 ms, Max = 1.266003 ms
+Running CUBLAS GPU-> M = 13824, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.314721 ms, Min = 1.309872 ms, Max = 1.329899 ms
+Running CUBLAS GPU-> M = 13824, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.377928 ms, Min = 1.372814 ms, Max = 1.392126 ms
+Running CUBLAS GPU-> M = 13824, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.449099 ms, Min = 1.443863 ms, Max = 1.481056 ms
+Running CUBLAS GPU-> M = 13824, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.511722 ms, Min = 1.507044 ms, Max = 1.532078 ms
+Running CUBLAS GPU-> M = 13824, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.577821 ms, Min = 1.574039 ms, Max = 1.595020 ms
+Running CUBLAS GPU-> M = 13824, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.647263 ms, Min = 1.640081 ms, Max = 1.661062 ms
+Running CUBLAS GPU-> M = 13824, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.703129 ms, Min = 1.698017 ms, Max = 1.724005 ms
+Running CUBLAS GPU-> M = 13824, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.770129 ms, Min = 1.764059 ms, Max = 1.785040 ms
+Running CUBLAS GPU-> M = 13824, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.836851 ms, Min = 1.832008 ms, Max = 1.852989 ms
+Running CUBLAS GPU-> M = 13824, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.898792 ms, Min = 1.890898 ms, Max = 1.905918 ms
+Running CUBLAS GPU-> M = 13824, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=1.972668 ms, Min = 1.966000 ms, Max = 1.989126 ms
+Running CUBLAS GPU-> M = 13824, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=2.036538 ms, Min = 2.032042 ms, Max = 2.049923 ms
+Running CUBLAS GPU-> M = 13824, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=2.101319 ms, Min = 2.095222 ms, Max = 2.115965 ms
+Running CUBLAS GPU-> M = 14336, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.080318 ms, Min = 0.077963 ms, Max = 0.096798 ms
+Running CUBLAS GPU-> M = 14336, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.148144 ms, Min = 0.145912 ms, Max = 0.152111 ms
+Running CUBLAS GPU-> M = 14336, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.214033 ms, Min = 0.211954 ms, Max = 0.233173 ms
+Running CUBLAS GPU-> M = 14336, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.283012 ms, Min = 0.279903 ms, Max = 0.301123 ms
+Running CUBLAS GPU-> M = 14336, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.348740 ms, Min = 0.345945 ms, Max = 0.367880 ms
+Running CUBLAS GPU-> M = 14336, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.416918 ms, Min = 0.413895 ms, Max = 0.432014 ms
+Running CUBLAS GPU-> M = 14336, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.484447 ms, Min = 0.481844 ms, Max = 0.499964 ms
+Running CUBLAS GPU-> M = 14336, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.551739 ms, Min = 0.548840 ms, Max = 0.567913 ms
+Running CUBLAS GPU-> M = 14336, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.618620 ms, Min = 0.615835 ms, Max = 0.637054 ms
+Running CUBLAS GPU-> M = 14336, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.684340 ms, Min = 0.681877 ms, Max = 0.700951 ms
+Running CUBLAS GPU-> M = 14336, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.758531 ms, Min = 0.753880 ms, Max = 0.775814 ms
+Running CUBLAS GPU-> M = 14336, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.819633 ms, Min = 0.816822 ms, Max = 0.836134 ms
+Running CUBLAS GPU-> M = 14336, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.888643 ms, Min = 0.885010 ms, Max = 0.904083 ms
+Running CUBLAS GPU-> M = 14336, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.958772 ms, Min = 0.954866 ms, Max = 0.975132 ms
+Running CUBLAS GPU-> M = 14336, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=1.024950 ms, Min = 1.021147 ms, Max = 1.041889 ms
+Running CUBLAS GPU-> M = 14336, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=1.086950 ms, Min = 1.084089 ms, Max = 1.096964 ms
+Running CUBLAS GPU-> M = 14336, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.158829 ms, Min = 1.154900 ms, Max = 1.178026 ms
+Running CUBLAS GPU-> M = 14336, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.222882 ms, Min = 1.219034 ms, Max = 1.235962 ms
+Running CUBLAS GPU-> M = 14336, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.293898 ms, Min = 1.288891 ms, Max = 1.300097 ms
+Running CUBLAS GPU-> M = 14336, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.361082 ms, Min = 1.357794 ms, Max = 1.374006 ms
+Running CUBLAS GPU-> M = 14336, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.427701 ms, Min = 1.422882 ms, Max = 1.450062 ms
+Running CUBLAS GPU-> M = 14336, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.499989 ms, Min = 1.495838 ms, Max = 1.518011 ms
+Running CUBLAS GPU-> M = 14336, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.561182 ms, Min = 1.555920 ms, Max = 1.574993 ms
+Running CUBLAS GPU-> M = 14336, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.629682 ms, Min = 1.624823 ms, Max = 1.646996 ms
+Running CUBLAS GPU-> M = 14336, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.699679 ms, Min = 1.694918 ms, Max = 1.716137 ms
+Running CUBLAS GPU-> M = 14336, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.771152 ms, Min = 1.766920 ms, Max = 1.786947 ms
+Running CUBLAS GPU-> M = 14336, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.833804 ms, Min = 1.829147 ms, Max = 1.852036 ms
+Running CUBLAS GPU-> M = 14336, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.904039 ms, Min = 1.898050 ms, Max = 1.919031 ms
+Running CUBLAS GPU-> M = 14336, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=1.969929 ms, Min = 1.962900 ms, Max = 1.978159 ms
+Running CUBLAS GPU-> M = 14336, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=2.035050 ms, Min = 2.029181 ms, Max = 2.053022 ms
+Running CUBLAS GPU-> M = 14336, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=2.114792 ms, Min = 2.107859 ms, Max = 2.127886 ms
+Running CUBLAS GPU-> M = 14336, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=2.183750 ms, Min = 2.177954 ms, Max = 2.190828 ms
+Running CUBLAS GPU-> M = 14848, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.082397 ms, Min = 0.080824 ms, Max = 0.097990 ms
+Running CUBLAS GPU-> M = 14848, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.152242 ms, Min = 0.149965 ms, Max = 0.166893 ms
+Running CUBLAS GPU-> M = 14848, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.221779 ms, Min = 0.218868 ms, Max = 0.252962 ms
+Running CUBLAS GPU-> M = 14848, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.290773 ms, Min = 0.288010 ms, Max = 0.316143 ms
+Running CUBLAS GPU-> M = 14848, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.361512 ms, Min = 0.356913 ms, Max = 0.389099 ms
+Running CUBLAS GPU-> M = 14848, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.429282 ms, Min = 0.427008 ms, Max = 0.443935 ms
+Running CUBLAS GPU-> M = 14848, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.499082 ms, Min = 0.495911 ms, Max = 0.516891 ms
+Running CUBLAS GPU-> M = 14848, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.568550 ms, Min = 0.566006 ms, Max = 0.583887 ms
+Running CUBLAS GPU-> M = 14848, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.637970 ms, Min = 0.635862 ms, Max = 0.653028 ms
+Running CUBLAS GPU-> M = 14848, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.708151 ms, Min = 0.705004 ms, Max = 0.726938 ms
+Running CUBLAS GPU-> M = 14848, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.776963 ms, Min = 0.774860 ms, Max = 0.782967 ms
+Running CUBLAS GPU-> M = 14848, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.846651 ms, Min = 0.844002 ms, Max = 0.861883 ms
+Running CUBLAS GPU-> M = 14848, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.916691 ms, Min = 0.912905 ms, Max = 0.921965 ms
+Running CUBLAS GPU-> M = 14848, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=0.985732 ms, Min = 0.982046 ms, Max = 1.009941 ms
+Running CUBLAS GPU-> M = 14848, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=1.055517 ms, Min = 1.051903 ms, Max = 1.069069 ms
+Running CUBLAS GPU-> M = 14848, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=1.125174 ms, Min = 1.121044 ms, Max = 1.142025 ms
+Running CUBLAS GPU-> M = 14848, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.194949 ms, Min = 1.190901 ms, Max = 1.211882 ms
+Running CUBLAS GPU-> M = 14848, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.263919 ms, Min = 1.259804 ms, Max = 1.297951 ms
+Running CUBLAS GPU-> M = 14848, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.333637 ms, Min = 1.329899 ms, Max = 1.339912 ms
+Running CUBLAS GPU-> M = 14848, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.403670 ms, Min = 1.399994 ms, Max = 1.442194 ms
+Running CUBLAS GPU-> M = 14848, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.474543 ms, Min = 1.469851 ms, Max = 1.494169 ms
+Running CUBLAS GPU-> M = 14848, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.545250 ms, Min = 1.540184 ms, Max = 1.563072 ms
+Running CUBLAS GPU-> M = 14848, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.614521 ms, Min = 1.608849 ms, Max = 1.648903 ms
+Running CUBLAS GPU-> M = 14848, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.682909 ms, Min = 1.677990 ms, Max = 1.696110 ms
+Running CUBLAS GPU-> M = 14848, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.751359 ms, Min = 1.744986 ms, Max = 1.768112 ms
+Running CUBLAS GPU-> M = 14848, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.822581 ms, Min = 1.816988 ms, Max = 1.837015 ms
+Running CUBLAS GPU-> M = 14848, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.895351 ms, Min = 1.889944 ms, Max = 1.913071 ms
+Running CUBLAS GPU-> M = 14848, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=1.963220 ms, Min = 1.957178 ms, Max = 1.982927 ms
+Running CUBLAS GPU-> M = 14848, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=2.032828 ms, Min = 2.027035 ms, Max = 2.044916 ms
+Running CUBLAS GPU-> M = 14848, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=2.103212 ms, Min = 2.096891 ms, Max = 2.122879 ms
+Running CUBLAS GPU-> M = 14848, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=2.170367 ms, Min = 2.165079 ms, Max = 2.184153 ms
+Running CUBLAS GPU-> M = 14848, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=2.240913 ms, Min = 2.233982 ms, Max = 2.274036 ms
+Running CUBLAS GPU-> M = 15360, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.084128 ms, Min = 0.082016 ms, Max = 0.103951 ms
+Running CUBLAS GPU-> M = 15360, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.157170 ms, Min = 0.154972 ms, Max = 0.179052 ms
+Running CUBLAS GPU-> M = 15360, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.228548 ms, Min = 0.226021 ms, Max = 0.242949 ms
+Running CUBLAS GPU-> M = 15360, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.300102 ms, Min = 0.297785 ms, Max = 0.313997 ms
+Running CUBLAS GPU-> M = 15360, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.372717 ms, Min = 0.370026 ms, Max = 0.387907 ms
+Running CUBLAS GPU-> M = 15360, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.444369 ms, Min = 0.440836 ms, Max = 0.468016 ms
+Running CUBLAS GPU-> M = 15360, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.516071 ms, Min = 0.513077 ms, Max = 0.531912 ms
+Running CUBLAS GPU-> M = 15360, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.587122 ms, Min = 0.583887 ms, Max = 0.603914 ms
+Running CUBLAS GPU-> M = 15360, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.659158 ms, Min = 0.655890 ms, Max = 0.677109 ms
+Running CUBLAS GPU-> M = 15360, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.732391 ms, Min = 0.729084 ms, Max = 0.749826 ms
+Running CUBLAS GPU-> M = 15360, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.803254 ms, Min = 0.799894 ms, Max = 0.818968 ms
+Running CUBLAS GPU-> M = 15360, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.875411 ms, Min = 0.872135 ms, Max = 0.890017 ms
+Running CUBLAS GPU-> M = 15360, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.948040 ms, Min = 0.943899 ms, Max = 0.964165 ms
+Running CUBLAS GPU-> M = 15360, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=1.020000 ms, Min = 1.015902 ms, Max = 1.034021 ms
+Running CUBLAS GPU-> M = 15360, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=1.091697 ms, Min = 1.086950 ms, Max = 1.127005 ms
+Running CUBLAS GPU-> M = 15360, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=1.162162 ms, Min = 1.158953 ms, Max = 1.177073 ms
+Running CUBLAS GPU-> M = 15360, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.232240 ms, Min = 1.229048 ms, Max = 1.246929 ms
+Running CUBLAS GPU-> M = 15360, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.308529 ms, Min = 1.303911 ms, Max = 1.325846 ms
+Running CUBLAS GPU-> M = 15360, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.382570 ms, Min = 1.378059 ms, Max = 1.399994 ms
+Running CUBLAS GPU-> M = 15360, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.452150 ms, Min = 1.446962 ms, Max = 1.473188 ms
+Running CUBLAS GPU-> M = 15360, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.523910 ms, Min = 1.517057 ms, Max = 1.543999 ms
+Running CUBLAS GPU-> M = 15360, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.597412 ms, Min = 1.592875 ms, Max = 1.618147 ms
+Running CUBLAS GPU-> M = 15360, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.671259 ms, Min = 1.666069 ms, Max = 1.690149 ms
+Running CUBLAS GPU-> M = 15360, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.743882 ms, Min = 1.736879 ms, Max = 1.760960 ms
+Running CUBLAS GPU-> M = 15360, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.814101 ms, Min = 1.807928 ms, Max = 1.831055 ms
+Running CUBLAS GPU-> M = 15360, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.885788 ms, Min = 1.878977 ms, Max = 1.893997 ms
+Running CUBLAS GPU-> M = 15360, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=1.958201 ms, Min = 1.953125 ms, Max = 1.964808 ms
+Running CUBLAS GPU-> M = 15360, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=2.031212 ms, Min = 2.025127 ms, Max = 2.040863 ms
+Running CUBLAS GPU-> M = 15360, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=2.100489 ms, Min = 2.094030 ms, Max = 2.108097 ms
+Running CUBLAS GPU-> M = 15360, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=2.172952 ms, Min = 2.165794 ms, Max = 2.186060 ms
+Running CUBLAS GPU-> M = 15360, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=2.248142 ms, Min = 2.239943 ms, Max = 2.266169 ms
+Running CUBLAS GPU-> M = 15360, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=2.320890 ms, Min = 2.310038 ms, Max = 2.362013 ms
+Running CUBLAS GPU-> M = 15872, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.087419 ms, Min = 0.085831 ms, Max = 0.092983 ms
+Running CUBLAS GPU-> M = 15872, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.163615 ms, Min = 0.161886 ms, Max = 0.186920 ms
+Running CUBLAS GPU-> M = 15872, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.238142 ms, Min = 0.235081 ms, Max = 0.272036 ms
+Running CUBLAS GPU-> M = 15872, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.312970 ms, Min = 0.310898 ms, Max = 0.324965 ms
+Running CUBLAS GPU-> M = 15872, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.387568 ms, Min = 0.386000 ms, Max = 0.391006 ms
+Running CUBLAS GPU-> M = 15872, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.463438 ms, Min = 0.460863 ms, Max = 0.467062 ms
+Running CUBLAS GPU-> M = 15872, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.538552 ms, Min = 0.535965 ms, Max = 0.542164 ms
+Running CUBLAS GPU-> M = 15872, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.617733 ms, Min = 0.614166 ms, Max = 0.653028 ms
+Running CUBLAS GPU-> M = 15872, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.691850 ms, Min = 0.689030 ms, Max = 0.696898 ms
+Running CUBLAS GPU-> M = 15872, N = 5120
+CUBLAS GPU:
+ GPU exec time:	 Average=0.767181 ms, Min = 0.763893 ms, Max = 0.772953 ms
+Running CUBLAS GPU-> M = 15872, N = 5632
+CUBLAS GPU:
+ GPU exec time:	 Average=0.840573 ms, Min = 0.837088 ms, Max = 0.847101 ms
+Running CUBLAS GPU-> M = 15872, N = 6144
+CUBLAS GPU:
+ GPU exec time:	 Average=0.921199 ms, Min = 0.917912 ms, Max = 0.933886 ms
+Running CUBLAS GPU-> M = 15872, N = 6656
+CUBLAS GPU:
+ GPU exec time:	 Average=0.994842 ms, Min = 0.991106 ms, Max = 1.001835 ms
+Running CUBLAS GPU-> M = 15872, N = 7168
+CUBLAS GPU:
+ GPU exec time:	 Average=1.072400 ms, Min = 1.067162 ms, Max = 1.077890 ms
+Running CUBLAS GPU-> M = 15872, N = 7680
+CUBLAS GPU:
+ GPU exec time:	 Average=1.143639 ms, Min = 1.139879 ms, Max = 1.148224 ms
+Running CUBLAS GPU-> M = 15872, N = 8192
+CUBLAS GPU:
+ GPU exec time:	 Average=1.223068 ms, Min = 1.217842 ms, Max = 1.246929 ms
+Running CUBLAS GPU-> M = 15872, N = 8704
+CUBLAS GPU:
+ GPU exec time:	 Average=1.300919 ms, Min = 1.297951 ms, Max = 1.306057 ms
+Running CUBLAS GPU-> M = 15872, N = 9216
+CUBLAS GPU:
+ GPU exec time:	 Average=1.376841 ms, Min = 1.372814 ms, Max = 1.409054 ms
+Running CUBLAS GPU-> M = 15872, N = 9728
+CUBLAS GPU:
+ GPU exec time:	 Average=1.454151 ms, Min = 1.449823 ms, Max = 1.477003 ms
+Running CUBLAS GPU-> M = 15872, N = 10240
+CUBLAS GPU:
+ GPU exec time:	 Average=1.530151 ms, Min = 1.523972 ms, Max = 1.542091 ms
+Running CUBLAS GPU-> M = 15872, N = 10752
+CUBLAS GPU:
+ GPU exec time:	 Average=1.598649 ms, Min = 1.593828 ms, Max = 1.613140 ms
+Running CUBLAS GPU-> M = 15872, N = 11264
+CUBLAS GPU:
+ GPU exec time:	 Average=1.684856 ms, Min = 1.678944 ms, Max = 1.722813 ms
+Running CUBLAS GPU-> M = 15872, N = 11776
+CUBLAS GPU:
+ GPU exec time:	 Average=1.747420 ms, Min = 1.742840 ms, Max = 1.768827 ms
+Running CUBLAS GPU-> M = 15872, N = 12288
+CUBLAS GPU:
+ GPU exec time:	 Average=1.831045 ms, Min = 1.824856 ms, Max = 1.851082 ms
+Running CUBLAS GPU-> M = 15872, N = 12800
+CUBLAS GPU:
+ GPU exec time:	 Average=1.913421 ms, Min = 1.905918 ms, Max = 1.942873 ms
+Running CUBLAS GPU-> M = 15872, N = 13312
+CUBLAS GPU:
+ GPU exec time:	 Average=1.985781 ms, Min = 1.978874 ms, Max = 2.003193 ms
+Running CUBLAS GPU-> M = 15872, N = 13824
+CUBLAS GPU:
+ GPU exec time:	 Average=2.066939 ms, Min = 2.061129 ms, Max = 2.085924 ms
+Running CUBLAS GPU-> M = 15872, N = 14336
+CUBLAS GPU:
+ GPU exec time:	 Average=2.145460 ms, Min = 2.138853 ms, Max = 2.159834 ms
+Running CUBLAS GPU-> M = 15872, N = 14848
+CUBLAS GPU:
+ GPU exec time:	 Average=2.216754 ms, Min = 2.208948 ms, Max = 2.232075 ms
+Running CUBLAS GPU-> M = 15872, N = 15360
+CUBLAS GPU:
+ GPU exec time:	 Average=2.298889 ms, Min = 2.290964 ms, Max = 2.315998 ms
+Running CUBLAS GPU-> M = 15872, N = 15872
+CUBLAS GPU:
+ GPU exec time:	 Average=2.373853 ms, Min = 2.365112 ms, Max = 2.393961 ms
+Running CUBLAS GPU-> M = 15872, N = 16384
+CUBLAS GPU:
+ GPU exec time:	 Average=2.451630 ms, Min = 2.444029 ms, Max = 2.465963 ms
+Running CUBLAS GPU-> M = 16384, N = 512
+CUBLAS GPU:
+ GPU exec time:	 Average=0.089693 ms, Min = 0.087976 ms, Max = 0.107050 ms
+Running CUBLAS GPU-> M = 16384, N = 1024
+CUBLAS GPU:
+ GPU exec time:	 Average=0.166881 ms, Min = 0.164986 ms, Max = 0.181913 ms
+Running CUBLAS GPU-> M = 16384, N = 1536
+CUBLAS GPU:
+ GPU exec time:	 Average=0.243969 ms, Min = 0.240803 ms, Max = 0.267982 ms
+Running CUBLAS GPU-> M = 16384, N = 2048
+CUBLAS GPU:
+ GPU exec time:	 Average=0.320132 ms, Min = 0.317812 ms, Max = 0.334978 ms
+Running CUBLAS GPU-> M = 16384, N = 2560
+CUBLAS GPU:
+ GPU exec time:	 Average=0.396662 ms, Min = 0.394821 ms, Max = 0.400066 ms
+Running CUBLAS GPU-> M = 16384, N = 3072
+CUBLAS GPU:
+ GPU exec time:	 Average=0.473330 ms, Min = 0.470877 ms, Max = 0.477076 ms
+Running CUBLAS GPU-> M = 16384, N = 3584
+CUBLAS GPU:
+ GPU exec time:	 Average=0.550070 ms, Min = 0.546932 ms, Max = 0.586987 ms
+Running CUBLAS GPU-> M = 16384, N = 4096
+CUBLAS GPU:
+ GPU exec time:	 Average=0.627007 ms, Min = 0.623941 ms, Max = 0.652790 ms
+Running CUBLAS GPU-> M = 16384, N = 4608
+CUBLAS GPU:
+ GPU exec time:	 Average=0.703683 ms, Min = 0.700951 ms, Max = 0.708103 ms
+Ran 1001 Benchmarks.Finallizing...

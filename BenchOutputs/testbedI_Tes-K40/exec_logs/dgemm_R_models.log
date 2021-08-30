@@ -1,0 +1,68 @@
+Start:  AIC=-3415.7
+Exec_T ~ SqT:V3 - 1
+
+         Df Sum of Sq     RSS     AIC
++ V1      1    0.0003  0.0001 -3757.5
++ SqT     1    0.0002  0.0002 -3617.9
++ V3      1    0.0001  0.0003 -3520.3
+<none>                 0.0004 -3415.7
+- SqT:V3  1   17.5205 17.5209  -686.5
+
+Step:  AIC=-3757.46
+Exec_T ~ V1 + SqT:V3 - 1
+
+         Df Sum of Sq    RSS     AIC
++ V3      1    0.0000 0.0001 -3859.6
+<none>                0.0001 -3757.5
++ SqT     1    0.0000 0.0001 -3747.9
+- V1      1    0.0003 0.0004 -3415.7
+- SqT:V3  1    4.7602 4.7603 -1010.1
+
+Step:  AIC=-3859.64
+Exec_T ~ V1 + V3 + SqT:V3 - 1
+
+         Df Sum of Sq    RSS     AIC
++ SqT     1    0.0000 0.0000 -4064.0
++ V1:V3   1    0.0000 0.0000 -3982.2
+<none>                0.0001 -3859.6
+- V1      1    0.0002 0.0003 -3520.3
+- V3:SqT  1    4.3273 4.3273 -1024.5
+
+Step:  AIC=-4064.04
+Exec_T ~ V1 + V3 + SqT + V3:SqT - 1
+
+         Df Sum of Sq     RSS     AIC
++ V1:V3   1    0.0000 0.00002 -4083.7
+<none>                0.00003 -4064.0
+- V1      1    0.0000 0.00003 -4056.8
+- V3:SqT  1    2.1669 2.16697 -1191.6
+
+Step:  AIC=-4083.7
+Exec_T ~ V1 + V3 + SqT + V3:SqT + V1:V3 - 1
+
+         Df Sum of Sq      RSS     AIC
+<none>                0.000025 -4083.7
+- V1:V3   1  0.000003 0.000028 -4064.0
+- V3:SqT  1  0.177683 0.177708 -1821.8
+
+Call:
+lm(formula = Exec_T ~ V1 + V3 + SqT + V3:SqT + V1:V3 - 1, data = gemm_gpu_train_set)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-1.121e-03 -1.788e-04  3.508e-05  1.708e-04  7.129e-04 
+
+Coefficients:
+         Estimate Std. Error  t value Pr(>|t|)    
+V1      4.139e-09  3.341e-08    0.124    0.902    
+V3      3.171e-07  1.358e-08   23.346  < 2e-16 ***
+SqT     5.983e-11  5.112e-12   11.703  < 2e-16 ***
+V3:SqT  1.622e-12  1.211e-15 1339.299  < 2e-16 ***
+V1:V3  -5.173e-11  9.316e-12   -5.553 7.13e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0003147 on 251 degrees of freedom
+Multiple R-squared:      1,	Adjusted R-squared:      1 
+F-statistic: 3.537e+07 on 5 and 251 DF,  p-value: < 2.2e-16
+
